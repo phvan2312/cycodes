@@ -70,6 +70,10 @@ def process_one_json(json_dct, image, image_file_name, json_output_folder, model
         formal_key = normalize(formal_key)
 
         if formal_key in accepted_formal_kies:
+            # just show up the region which has value of field "key_type"/"type" is "value"
+            if not 'value' in [region_attbs.get("key_type",""), region_attbs.get("type","")]:
+                break
+
             label = region_attbs['label']
 
             x,y,w,h = shape_attbs['x'], shape_attbs['y'], shape_attbs['width'], shape_attbs['height']

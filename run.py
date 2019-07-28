@@ -1,5 +1,6 @@
 import os
 import json
+import shutil
 from ocr_model_wrapper import OcrWrapper
 from excel_wrapper import ExcelWrapper
 import utils
@@ -93,6 +94,9 @@ def main(use_lucas, use_cannet, input_image, input_json_folder):
         excel_writer.close()
 
     elif mode == BOTH_FOLDER_JSON_IMAGE:
+        if os.path.isdir(output_folder):
+            shutil.rmtree(output_folder)
+
         image_with_base_names = utils.read_folder_with_basename(input_image)
 
         #
@@ -163,3 +167,10 @@ def main(use_lucas, use_cannet, input_image, input_json_folder):
 
 if __name__ == "__main__":
     main()
+
+    # for example
+    """
+    # for example, run the following commands:
+    1. python run.py -use_lucas -use_cannet -input_image "/home/vanph/Desktop/for_nancy/train_json&img_55files/images" -input_json_folder "/home/vanph/Desktop/for_nancy/train_json&img_55files/jsons"
+    
+    """
