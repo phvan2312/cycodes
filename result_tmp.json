@@ -1,0 +1,82 @@
+[
+ {
+  "file name": "C:\\Users\\kan\\Desktop\\cy-chan2\\train_json&img_55files\\images\\【請求書】飲料メーカー会員アプリ_201709_0.jpg",
+  "formal_key": "company_name",
+  "sub_image_fn": "./output\\【請求書】飲料メーカー会員アプリ_201709_0\\company_name_1.png",
+  "predict": {
+   "lucas": "silvereye 株式会社",
+   "cannet": "silvereye 株式会社"
+  },
+  "label": "silvereye株式会社"
+ },
+ {
+  "file name": "C:\\Users\\kan\\Desktop\\cy-chan2\\train_json&img_55files\\images\\【請求書】飲料メーカー会員アプリ_201709_0.jpg",
+  "formal_key": "company_address",
+  "sub_image_fn": "./output\\【請求書】飲料メーカー会員アプリ_201709_0\\company_address_2.png",
+  "predict": {
+   "lucas": "東京都中央区湊2-6-4 RKビルディング3F",
+   "cannet": "東京都中央区湊2-6-4 RKビルディング3F"
+  },
+  "label": "東京都中央区湊2-4-6 RKビルディング3F"
+ },
+ {
+  "file name": "C:\\Users\\kan\\Desktop\\cy-chan2\\train_json&img_55files\\images\\【請求書】飲料メーカー会員アプリ_201709_0.jpg",
+  "formal_key": "item_name",
+  "sub_image_fn": "./output\\【請求書】飲料メーカー会員アプリ_201709_0\\item_name_3.png",
+  "predict": {
+   "lucas": "項目",
+   "cannet": "項目"
+  },
+  "label": "項目"
+ },
+ {
+  "file name": "C:\\Users\\kan\\Desktop\\cy-chan2\\train_json&img_55files\\images\\【請求書】飲料メーカー会員アプリ_201709_0.jpg",
+  "formal_key": "item_name",
+  "sub_image_fn": "./output\\【請求書】飲料メーカー会員アプリ_201709_0\\item_name_4.png",
+  "predict": {
+   "lucas": "C向けモバイルオ-ダ-サ-ビス",
+   "cannet": "C向けモバイルオ-ダ-サ-ビス"
+  },
+  "label": "C向けモバイルオーダーサービス"
+ },
+ {
+  "file name": "C:\\Users\\kan\\Desktop\\cy-chan2\\train_json&img_55files\\images\\【請求書】飲料メーカー会員アプリ_201709_0.jpg",
+  "formal_key": "item_name",
+  "sub_image_fn": "./output\\【請求書】飲料メーカー会員アプリ_201709_0\\item_name_5.png",
+  "predict": {
+   "lucas": "総合コンサルティング費用",
+   "cannet": "総合コンサルティング費用"
+  },
+  "label": "総合コンサルティング費用"
+ },
+ {
+  "file name": "C:\\Users\\kan\\Desktop\\cy-chan2\\train_json&img_55files\\images\\【請求書】飲料メーカー会員アプリ_201709_0.jpg",
+  "formal_key": "item_name",
+  "sub_image_fn": "./output\\【請求書】飲料メーカー会員アプリ_201709_0\\item_name_6.png",
+  "predict": {
+   "lucas": "(2017年8・9月実施分)",
+   "cannet": "(2017年8・9月実施分)"
+  },
+  "label": "(2017年8-9月期実族分)"
+ },
+ {
+  "file name": "C:\\Users\\kan\\Desktop\\cy-chan2\\train_json&img_55files\\images\\【請求書】飲料メーカー会員アプリ_201709_0.jpg",
+  "formal_key": "account_name_kana",
+  "sub_image_fn": "./output\\【請求書】飲料メーカー会員アプリ_201709_0\\account_name_kana_7.png",
+  "predict": {
+   "lucas": "口座名義",
+   "cannet": "口座名義:"
+  },
+  "label": "口座名義:"
+ },
+ {
+  "file name": "C:\\Users\\kan\\Desktop\\cy-chan2\\train_json&img_55files\\images\\【請求書】飲料メーカー会員アプリ_201709_0.jpg",
+  "formal_key": "account_name_kana",
+  "sub_image_fn": "./output\\【請求書】飲料メーカー会員アプリ_201709_0\\account_name_kana_8.png",
+  "predict": {
+   "lucas": "シルバ-アイ カ.",
+   "cannet": "シルバ-アイ カ)"
+  },
+  "label": "シルバーアイカ)"
+ }
+]
