@@ -28,16 +28,22 @@ import click
 @click.command()
 @click.option('-use_lucas', is_flag=True)
 @click.option('-use_cannet', is_flag=True)
+@click.option('-use_kush', is_flag=True)
+@click.option('-use_kizd', is_flag=True)
+@click.option('-use_pika', is_flag=True)
 
 @click.option('-input_image', type=str, required=True)
 @click.option('-input_json_folder', type=str, default='')
-def main(use_lucas, use_cannet, input_image, input_json_folder):
+def main(use_lucas, use_cannet, use_kush, use_kizd, use_pika, input_image, input_json_folder):
     """
     Configurations
     """
     print ("+" * 20)
     print ("use_lucas_ocr:", use_lucas)
     print ("use_cannet_ocr:", use_cannet)
+    print ("use_kush_ocr:", use_kush)
+    print ("use_kizd_ocr:", use_kizd)
+    print ("use_pika_ocr:", use_pika)
     print ("input_image", input_image)
     print ("input_json_folder", input_json_folder)
     print ("+" * 20)
@@ -51,6 +57,10 @@ def main(use_lucas, use_cannet, input_image, input_json_folder):
     ocr_wrapper = OcrWrapper(src_model_path=os.path.join(os.path.dirname(os.path.realpath(__file__)), 'saved_models'))
     if use_lucas: ocr_wrapper.add_ocr_model('lucas', config.get('lucas', None))
     if use_cannet: ocr_wrapper.add_ocr_model('cannet', config.get('cannet', None))
+    if use_kush: ocr_wrapper.add_ocr_model('kush', config.get('kush', None))
+    if use_pika: ocr_wrapper.add_ocr_model('pika', config.get('pika', None))
+    if use_kizd: ocr_wrapper.add_ocr_model('kizd', config.get('kizd', None))
+
 
     """
     Predict
@@ -65,8 +75,6 @@ def main(use_lucas, use_cannet, input_image, input_json_folder):
 
     elif mode == SINGLE_FOLDER:
         dct_results = ocr_wrapper.predict_folder(input_image)
-
-        #dct_results = json.load(open("./result_tmp.json",'r',encoding='utf-8'))
 
         # write_to_excel
         excel_writer = ExcelWrapper(output_excel_fn)
@@ -124,7 +132,7 @@ def main(use_lucas, use_cannet, input_image, input_json_folder):
 
                 final_results += result
             else:
-                print("%s not existed !!!" % corr_image_fn)
+                print("Can not find coressponding image for json: %s !!!" % json_fn)
 
         #
         excel_writer = ExcelWrapper(output_excel_fn)
@@ -133,36 +141,32 @@ def main(use_lucas, use_cannet, input_image, input_json_folder):
         index_column = 0
 
         labels = [elem['label'] for elem in final_results]
-        file_names = [elem['file name'] for elem in final_results]
+        file_names = [os.path.basename(elem['file name']) for elem in final_results]
         formal_kies = [elem['formal_key'] for elem in final_results]
         sub_img_fns = [elem['sub_image_fn'] for elem in final_results]
 
-        excel_writer.add_column(index_column, "Sheet1", file_names, 'file name', column_width=70)
+        excel_writer.add_column(index_column, "Sheet1", file_names, 'File Name', column_width=70)
         index_column += 1
 
-        excel_writer.add_column(index_column, "Sheet1", sub_img_fns, 'images', column_width=70, is_image=True)
+        excel_writer.add_column(index_column, "Sheet1", sub_img_fns, 'Images', column_width=70, is_image=True)
         index_column += 1
 
-        excel_writer.add_column(index_column, "Sheet1", formal_kies, 'formal key')
+        excel_writer.add_column(index_column, "Sheet1", formal_kies, 'Formal Key')
         index_column += 1
 
-        excel_writer.add_column(index_column, "Sheet1", labels, 'label')
+        excel_writer.add_column(index_column, "Sheet1", labels, 'Label')
         index_column += 1
 
         for model_name in list(ocr_wrapper.models.keys()):
             preds_by_model_name = [v['predict'][model_name] for v in final_results]
-            excel_writer.add_column(index_column, "Sheet1", preds_by_model_name, 'predict by %s_ocr' % model_name)
+            excel_writer.add_column(index_column, "Sheet1", preds_by_model_name, 'Predict by %s_ocr' % model_name)
 
             index_column += 1
 
         excel_writer.add_work_sheet("Statistics")
 
-
         #
         excel_writer.close()
-
-
-
 
 
 if __name__ == "__main__":
@@ -171,6 +175,6 @@ if __name__ == "__main__":
     # for example
     """
     # for example, run the following commands:
-    1. python run.py -use_lucas -use_cannet -input_image "/home/vanph/Desktop/for_nancy/train_json&img_55files/images" -input_json_folder "/home/vanph/Desktop/for_nancy/train_json&img_55files/jsons"
+    1. python run.py -use_lucas -use_cannet -input_image "/home/vanph/Desktop/for_nancy/cycodes/test_338_files/img/" -input_json_folder "/home/vanph/Desktop/for_nancy/cycodes/test_338_files/processed-labels"
     
     """

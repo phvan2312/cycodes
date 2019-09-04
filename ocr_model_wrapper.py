@@ -3,7 +3,7 @@ import os
 class OcrWrapper:
     def __init__(self, src_model_path):
         self.models = {}
-        self.accpeted_models = ['onmt', 'kush', 'anson', 'pika', 'cannet', 'lucas']
+        self.accpeted_models = ['onmt', 'kush', 'anson', 'pika', 'cannet', 'lucas', 'kizd']
         self.src_model_path = src_model_path
 
     def import_model(self, model_name, model_weight_fn):
