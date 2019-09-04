@@ -1,4 +1,7 @@
 {
   "lucas": "LucasOCR-v2.6.0.pt",
-  "cannet": "CannetOCR-v2.6.0.pt"
+  "cannet": "CannetOCR-v2.6.0.pt",
+  "kush": "KushOCR-v0.1.0.h5",
+  "kizd": "KizdOCR-v2.9.0.pt",
+  "pika": "PikaOCR-v1.1.0.pt"
 }
