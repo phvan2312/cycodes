@@ -1,3 +1,2 @@
-./saved_models/*
-./output/*
-./excel_output.xlsx
+output/
+excel_output.xlsx
