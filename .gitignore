@@ -1,2 +1,4 @@
-output/
+output/*
 excel_output.xlsx
+saved_models/*
+cyguides/*
