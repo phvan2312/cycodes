@@ -44,15 +44,15 @@ def enter_input(help_str, valid_input):
 # 3 modes: run single files, run single folder,
 import click
 @click.command()
-@click.option('-use_lucas', is_flag=True)
-@click.option('-use_cannet', is_flag=True)
-@click.option('-use_kush', is_flag=True)
-@click.option('-use_pika', is_flag=True)
+@click.option('-use_lucas', is_flag=True, default=False)
+@click.option('-use_cannet', is_flag=True, default=True)
+@click.option('-use_kush', is_flag=True, default=False)
+@click.option('-use_pika', is_flag=True, default=False)
 
-@click.option('-input_image', type=str, required=True)
-@click.option('-input_json_folder', type=str, default='')
-@click.option('-output_excel_fn', type=str, required=True, default="./excel_output2.xlsx")
-@click.option('-output_folder', type=str, required=True, default="./output")
+@click.option('-input_image', type=str, default="/home/vanph/Downloads/PoC_Daiichi4-20191108T041909Z-001/PoC_Daiichi4/1573033149_IP_Daiichi_training_4/images_test")
+@click.option('-input_json_folder', type=str, default="/home/vanph/Downloads/PoC_Daiichi4-20191108T041909Z-001/PoC_Daiichi4/1573033149_IP_Daiichi_training_4/labels")
+@click.option('-output_excel_fn', type=str, required=True, default="./1573033149_IP_Daiichi_training_4.xlsx")
+@click.option('-output_folder', type=str, required=True, default="./1573033149_IP_Daiichi_training_4")
 def main(use_lucas, use_cannet, use_kush, use_pika, input_image, input_json_folder,
          output_excel_fn, output_folder):
     """
@@ -66,6 +66,8 @@ def main(use_lucas, use_cannet, use_kush, use_pika, input_image, input_json_fold
     print ("input_image", input_image)
     print ("input_json_folder", input_json_folder)
     print ("+" * 20)
+
+    #use_cannet = True
 
     config_fn = "./configs/configs.json"
     config = json.load(open(config_fn, 'r', encoding='utf-8'))
@@ -184,6 +186,7 @@ def main(use_lucas, use_cannet, use_kush, use_pika, input_image, input_json_fold
         index_column = 0
 
         labels = [elem['label'] for elem in final_results]
+        bboxs  = [elem['bbox'] for elem in final_results]
         file_names = [os.path.basename(elem['file name']) for elem in final_results]
         formal_kies = [elem['formal_key'] for elem in final_results]
         sub_img_fns = [elem['sub_image_fn'] for elem in final_results]
@@ -198,6 +201,9 @@ def main(use_lucas, use_cannet, use_kush, use_pika, input_image, input_json_fold
         index_column += 1
 
         excel_writer.add_column(index_column, "Sheet1", labels, 'Label')
+        index_column += 1
+
+        excel_writer.add_column(index_column, "Sheet1", bboxs, 'Bbox')
         index_column += 1
 
         for model_name in list(ocr_wrapper.models.keys()):
@@ -221,5 +227,4 @@ if __name__ == "__main__":
     """
     # for example, run the following commands:
     1. python run.py -use_lucas -use_cannet -input_image "/home/vanph/Desktop/for_nancy/cycodes/test_338_files/img/" -input_json_folder "/home/vanph/Desktop/for_nancy/cycodes/test_338_files/processed-labels_v2"
-    
     """

@@ -6,15 +6,20 @@ import cv2
 def normalize(val):
     return val.strip()
 
-# does not use this function anymore, because we have the newer function get_sub_image.
-def get_bounding_box(shape_attbs):
-    if shape_attbs["name"] == "rect":
-        x, y, w, h = shape_attbs['x'], shape_attbs['y'], shape_attbs['width'], shape_attbs['height']
-    else:
-        cnt = [(x, y) for (x,y) in zip(shape_attbs["all_points_x"],shape_attbs["all_points_y"])]
-        x, y, w, h = cv2.boundingRect(np.array(cnt))
-    return (x, y, w, h)
-### << End
+def check_valid_shape_attribute(shape_attrb):
+    # currently only support for checking the validity of rectangle
+    # There's stil some kind of different shapes need to be checked
+    if shape_attrb.get('name', '') == 'rect':
+        x = shape_attrb.get('x', -1)
+        y = shape_attrb.get('y', -1)
+        width = shape_attrb.get('width', -1)
+        height = shape_attrb.get('height', -1)
+
+        if np.any(np.array([x,y,width,height]) < 0): return False
+        else:
+            return True
+
+    return True
 
 def get_sub_image(image, shape_attbs):
     if shape_attbs["name"] == "rect":
@@ -25,6 +30,7 @@ def get_sub_image(image, shape_attbs):
         # the root cause of polygon maybe becaused of the rotated sub-regions. So need to de-warp
         cnts = [(x, y) for (x, y) in zip(shape_attbs["all_points_x"], shape_attbs["all_points_y"])]
 
+        # transoform to the right direction
         sub_image = four_point_transform(image, np.array(cnts))
     else:
         raise Exception("WTF region type?, must be rect/polygon")
@@ -87,6 +93,8 @@ def process_one_json(json_dct, image, image_file_name, json_output_folder, model
         # kv
         json_dct = convert_kv_json_to_datapile_json(json_dct)
 
+    print ("Processing file: %s ..." % image_file_name)
+
     #
     for region in json_dct['attributes']['_via_img_metadata']['regions']:
         shape_attbs = region['shape_attributes']
@@ -95,12 +103,20 @@ def process_one_json(json_dct, image, image_file_name, json_output_folder, model
         formal_key = region_attbs.get("formal_key", "")
         formal_key = normalize(formal_key)
 
-        if formal_key in accepted_formal_kies or len(accepted_formal_kies) == 0:
+        # Some files from Daiichi 4 contains X,Y coordinates which less than 0.
+        if not check_valid_shape_attribute(shape_attbs):
+            print ("In file: %s, shape_attributes: %s, is not valid !!!" % (image_file_name, json.dumps(shape_attbs)))
+            continue
+
+        if formal_key in accepted_formal_kies \
+                or \
+                len(accepted_formal_kies) == 0: # accept all the formal keys
+
             # just show up the region which has value of field "key_type"/"type" is "value"
-            if not 'value' in [region_attbs.get("key_type",""), region_attbs.get("type","")]:
+            if not 'value' in [region_attbs.get("key_type", ""), region_attbs.get("type", "")]:
                 continue
 
-            if not 'printed' in [region_attbs.get("text_type","")]:
+            if not 'printed' in [region_attbs.get("text_type", "")]:
                 continue
 
             label = region_attbs['label']
@@ -111,6 +127,9 @@ def process_one_json(json_dct, image, image_file_name, json_output_folder, model
 
             image_out_fn = os.path.join(json_output_folder, "%s_%d.png" % (formal_key, _id))
 
+            if label == predict['cannet']:
+                continue
+
             _id += 1
             write_image(image_region, image_out_fn)
 
@@ -119,7 +138,8 @@ def process_one_json(json_dct, image, image_file_name, json_output_folder, model
                 'formal_key': formal_key,
                 'sub_image_fn': image_out_fn,
                 'predict': predict,
-                'label': label
+                'label': label,
+                'bbox': json.dumps(shape_attbs, ensure_ascii=False)
             }
 
             dct_infos += [dct_info]
