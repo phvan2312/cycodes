@@ -6,7 +6,7 @@ import cv2
 def normalize(val):
     return val.strip()
 
-def check_valid_shape_attribute(shape_attrb):
+def check_valid_shape_attribute(shape_attrb, max_height, max_width):
     # currently only support for checking the validity of rectangle
     # There's stil some kind of different shapes need to be checked
     if shape_attrb.get('name', '') == 'rect':
@@ -15,7 +15,9 @@ def check_valid_shape_attribute(shape_attrb):
         width = shape_attrb.get('width', -1)
         height = shape_attrb.get('height', -1)
 
-        if np.any(np.array([x,y,width,height]) < 0): return False
+        if np.any([x < 0, y < 0, width <= 0, height <= 0,
+                   x >= max_width, y >= max_height]):
+            return False
         else:
             return True
 
@@ -82,10 +84,14 @@ def convert_kv_json_to_datapile_json(kv_json_dct):
 
 global_img = 0
 accepted_formal_kies = [] #["company_name", "company_address", "account_name_kana", "account_name_kanji", "item_name"]
-def process_one_json(json_dct, image, image_file_name, json_output_folder, model):
+def process_one_json(json_dct, image, image_file_name, sub_image_output_folder,
+                     model,
+                     accepted_formal_kies=[],key_type_="value",text_type_="value",
+                     only_label_diff_ocr=True):
     _id = 1
     dct_infos = []
     statistic = {}
+    error_fns = []
 
     # adding detect type of json here (from kv/datapile)
     if 'attributes' in json_dct: pass #datapile
@@ -96,7 +102,7 @@ def process_one_json(json_dct, image, image_file_name, json_output_folder, model
     print ("Processing file: %s ..." % image_file_name)
 
     #
-    for region in json_dct['attributes']['_via_img_metadata']['regions']:
+    for region_id, region in enumerate(json_dct['attributes']['_via_img_metadata']['regions']):
         shape_attbs = region['shape_attributes']
         region_attbs = region['region_attributes']
 
@@ -104,8 +110,14 @@ def process_one_json(json_dct, image, image_file_name, json_output_folder, model
         formal_key = normalize(formal_key)
 
         # Some files from Daiichi 4 contains X,Y coordinates which less than 0.
-        if not check_valid_shape_attribute(shape_attbs):
-            print ("In file: %s, shape_attributes: %s, is not valid !!!" % (image_file_name, json.dumps(shape_attbs)))
+        if not check_valid_shape_attribute(shape_attbs, max_height=image.shape[0], max_width=image.shape[1]):
+            err_msg = ">> In file: %s, box_id: %d, shape_attributes: %s, max_height: %d, max_width: %d, is not valid !!!" % (os.path.basename(image_file_name),
+                                                                                           region_id + 1,
+                                                                                           json.dumps(shape_attbs),
+                                                                                           image.shape[0],image.shape[1])
+            print (err_msg)
+
+            error_fns += [err_msg]
             continue
 
         if formal_key in accepted_formal_kies \
@@ -113,25 +125,31 @@ def process_one_json(json_dct, image, image_file_name, json_output_folder, model
                 len(accepted_formal_kies) == 0: # accept all the formal keys
 
             # just show up the region which has value of field "key_type"/"type" is "value"
-            if not 'value' in [region_attbs.get("key_type", ""), region_attbs.get("type", "")]:
-                continue
+            if key_type_ != '':
+                if not key_type_ in [region_attbs.get("key_type", ""), region_attbs.get("type", "")]:
+                    continue
 
-            if not 'printed' in [region_attbs.get("text_type", "")]:
-                continue
+            if text_type_ != '':
+                if not text_type_ in [region_attbs.get("text_type", "")]:
+                    continue
 
             label = region_attbs['label']
 
+            # preprocess bounding boxes (rotate, convert polygon->rect) -> run ocr
             image_region = get_sub_image(image, shape_attbs)
 
+            print(json.dumps(shape_attbs), image.shape)
             predict = model.predict(image_region)
 
-            image_out_fn = os.path.join(json_output_folder, "%s_%d.png" % (formal_key, _id))
+            if only_label_diff_ocr:
+                if label == predict['cannet']:
+                    continue
 
-            if label == predict['cannet']:
-                continue
-
-            _id += 1
+            # write image to disk (for excel visualizing)
+            image_out_fn = os.path.join(sub_image_output_folder, "%s_%d.png" % (formal_key, _id))
             write_image(image_region, image_out_fn)
+            _id += 1
+            ###
 
             dct_info = {
                 'file name': image_file_name,
@@ -139,7 +157,8 @@ def process_one_json(json_dct, image, image_file_name, json_output_folder, model
                 'sub_image_fn': image_out_fn,
                 'predict': predict,
                 'label': label,
-                'bbox': json.dumps(shape_attbs, ensure_ascii=False)
+                'bbox': json.dumps(shape_attbs, ensure_ascii=False),
+                'box_id': region_id + 1
             }
 
             dct_infos += [dct_info]
@@ -148,7 +167,7 @@ def process_one_json(json_dct, image, image_file_name, json_output_folder, model
             statistic['shape_attribute'] = json.dumps(shape_attbs, ensure_ascii=False)
             statistic.update(region_attbs)
 
-    return dct_infos, statistic
+    return dct_infos, statistic, error_fns
 
 def read_folder_with_basename(folder):
     dct = {}
@@ -168,8 +187,7 @@ def read_image(image_path):
 def write_image(image, out_fn):
     Image.fromarray(image).save(out_fn)
 
-    if os.path.exists(out_fn):
-        print ("Saved %s successfully ..." % out_fn)
+    if os.path.exists(out_fn): print (">> Saved %s successfully ..." % out_fn)
     else:
         raise Exception("Not save %s !!!!" % out_fn)
 

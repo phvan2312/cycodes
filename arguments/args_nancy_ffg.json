@@ -1,0 +1,21 @@
+{
+  "input_image":"/home/vanph/Downloads/Final Data Annotation/Test data_20190524/images",
+  "input_json_folder":"/home/vanph/Downloads/Final Data Annotation/Test data_20190524/labels",
+  "output_excel_fn":"./ALPS_testing.xlsx",
+  "output_folder":"./ALPS_testing",
+
+  "use_lucas":false,
+  "use_cannet":true,
+  "use_kush":false,
+  "use_pika":false,
+
+  "accepted_formal_kies":[],
+  "key_type_":"",
+  "text_type_":"",
+  "only_label_diff_ocr":false,
+
+  "hidding_column_names":["Bbox", "Sub Image Fns","Formatting"],
+  "batch_size":5000,
+
+  "description":"for nancy, project FFG, date: 01/01/2019"
+}
