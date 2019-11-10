@@ -4,6 +4,11 @@ import string
 import numpy as np
 from PIL import Image
 
+class FakeWriter:
+    def __init__(self, book, sheets):
+        self.book = book
+        self.sheets = sheets
+
 def insert_image_worksheet(worksheet, img_path, index, col_index, scale=3, positioning=2):
     img = np.array(Image.open(img_path))
     height = img.shape[0]
@@ -27,7 +32,11 @@ class ExcelWrapper:
         worksheet = self.workbook.add_worksheet()
         self.dct_worksheets[sheet_name] = worksheet
 
-    def add_column(self, index_column, sheet_name, datas, title_name, column_width = 40, is_image=False):
+    def get_fake_writer(self):
+        return FakeWriter(book=self.workbook, sheets=self.dct_worksheets)
+
+    def add_column(self, index_column, sheet_name, datas, title_name, column_width = 40,
+                   is_image=False, is_hidden=False):
         """
         :param index_column: index 0 ->
         :param sheet_name:
@@ -55,6 +64,9 @@ class ExcelWrapper:
                 insert_image_worksheet(worksheet, data, index, col_index=index_column, scale=scale)
 
             index += 1
+
+        if is_hidden:
+            worksheet.set_column('%s:%s' % (index_character, index_character), None, None, {'hidden': True})
 
 
 
