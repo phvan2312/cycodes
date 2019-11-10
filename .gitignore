@@ -2,3 +2,6 @@ output/*
 excel_output.xlsx
 saved_models/*
 cyguides/*
+*.png
+*.txt
+*.xlsx
