@@ -1,0 +1,696 @@
+{
+    "file_name": "(仕様変更依頼書)TWBA_DAN0_001_3.png",
+    "attributes": {
+        "_via_img_metadata": {
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1920,
+                        "y": 459,
+                        "width": 282,
+                        "height": 112
+                    },
+                    "region_attributes": {
+                        "label": "機種:",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 161,
+                        "y": 449,
+                        "width": 1401,
+                        "height": 213
+                    },
+                    "region_attributes": {
+                        "label": "仕様変更依頼書",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 180,
+                        "y": 746,
+                        "width": 451,
+                        "height": 100
+                    },
+                    "region_attributes": {
+                        "label": "変更内容:",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 523,
+                        "y": 1469,
+                        "width": 1584,
+                        "height": 93
+                    },
+                    "region_attributes": {
+                        "label": "3.18. VFbaseの算出(基本FAN電圧値)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 700,
+                        "y": 1602,
+                        "width": 926,
+                        "height": 84
+                    },
+                    "region_attributes": {
+                        "label": "①FAN マニュアルのとき",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 978,
+                        "y": 1712,
+                        "width": 1312,
+                        "height": 84
+                    },
+                    "region_attributes": {
+                        "label": "VFbase = MIN(VFman, VFbasemax)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 704,
+                        "y": 1809,
+                        "width": 743,
+                        "height": 85
+                    },
+                    "region_attributes": {
+                        "label": "②FANオートのとき",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 967,
+                        "y": 1913,
+                        "width": 1198,
+                        "height": 84
+                    },
+                    "region_attributes": {
+                        "label": "RR席快適性制御判定成立の時",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1066,
+                        "y": 2032,
+                        "width": 1941,
+                        "height": 79
+                    },
+                    "region_attributes": {
+                        "label": "VFbase = MAX(MIN(VFauto, VFbasemax), VFmin)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1070,
+                        "y": 2127,
+                        "width": 690,
+                        "height": 84
+                    },
+                    "region_attributes": {
+                        "label": "VFminは4Vとする。",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": "noise"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 986,
+                        "y": 2226,
+                        "width": 349,
+                        "height": 89
+                    },
+                    "region_attributes": {
+                        "label": "それ以外",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1075,
+                        "y": 2339,
+                        "width": 1322,
+                        "height": 87
+                    },
+                    "region_attributes": {
+                        "label": "VFbase = MIN(VFauto,  VFbasemax)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 698,
+                        "y": 2439,
+                        "width": 3083,
+                        "height": 93
+                    },
+                    "region_attributes": {
+                        "label": "③FAN OFF(システムOFFもしくはFAN水温補正制御によるVFtw = 0.0(V))の時",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1078,
+                        "y": 2557,
+                        "width": 543,
+                        "height": 76
+                    },
+                    "region_attributes": {
+                        "label": "VFbase = 0(V)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 718,
+                        "y": 2752,
+                        "width": 971,
+                        "height": 97
+                    },
+                    "region_attributes": {
+                        "label": "VFbasemaxは下記による。",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 711,
+                        "y": 2974,
+                        "width": 2910,
+                        "height": 90
+                    },
+                    "region_attributes": {
+                        "label": "MODEがDEF以外の時、VFbasemaxは[3.8 VFmax]の吹き出し口毎の値とする。",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 709,
+                        "y": 3176,
+                        "width": 695,
+                        "height": 86
+                    },
+                    "region_attributes": {
+                        "label": "MODEがDEFの時",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 976,
+                        "y": 3478,
+                        "width": 422,
+                        "height": 73
+                    },
+                    "region_attributes": {
+                        "label": "VFbasemax",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3582,
+                        "y": 3499,
+                        "width": 92,
+                        "height": 72
+                    },
+                    "region_attributes": {
+                        "label": "b",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3287,
+                        "y": 3511,
+                        "width": 88,
+                        "height": 66
+                    },
+                    "region_attributes": {
+                        "label": "a",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3541,
+                        "y": 3679,
+                        "width": 171,
+                        "height": 76
+                    },
+                    "region_attributes": {
+                        "label": "-10",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3250,
+                        "y": 3673,
+                        "width": 166,
+                        "height": 84
+                    },
+                    "region_attributes": {
+                        "label": "-15",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1094,
+                        "y": 3983,
+                        "width": 94,
+                        "height": 77
+                    },
+                    "region_attributes": {
+                        "label": "d",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3674,
+                        "y": 4049,
+                        "width": 100,
+                        "height": 70
+                    },
+                    "region_attributes": {
+                        "label": "d",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3316,
+                        "y": 4059,
+                        "width": 83,
+                        "height": 63
+                    },
+                    "region_attributes": {
+                        "label": "c",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2225,
+                        "y": 4225,
+                        "width": 325,
+                        "height": 80
+                    },
+                    "region_attributes": {
+                        "label": "Tam2(˚C)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3260,
+                        "y": 4233,
+                        "width": 194,
+                        "height": 81
+                    },
+                    "region_attributes": {
+                        "label": "12.0",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3619,
+                        "y": 4233,
+                        "width": 205,
+                        "height": 81
+                    },
+                    "region_attributes": {
+                        "label": "12.0",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1427,
+                        "y": 4249,
+                        "width": 88,
+                        "height": 61
+                    },
+                    "region_attributes": {
+                        "label": "a",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1019,
+                        "y": 4458,
+                        "width": 1959,
+                        "height": 102
+                    },
+                    "region_attributes": {
+                        "label": "※外気センサーエラー時は、VFbasemaxはcの値とする",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 144,
+                        "y": 5733,
+                        "width": 236,
+                        "height": 123
+                    },
+                    "region_attributes": {
+                        "label": "備考",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1112,
+                        "y": 3684,
+                        "width": 60,
+                        "height": 66
+                    },
+                    "region_attributes": {
+                        "label": "c",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1836,
+                        "y": 4223,
+                        "width": 72,
+                        "height": 85
+                    },
+                    "region_attributes": {
+                        "label": "b",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2564,
+                        "y": 504,
+                        "width": 301,
+                        "height": 105
+                    },
+                    "region_attributes": {
+                        "label": "TWBA",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                }
+            ],
+            "file_attributes": {}
+        },
+        "_via_attributes": {
+            "region": {
+                "label": {
+                    "type": "text",
+                    "description": "",
+                    "default_value": ""
+                },
+                "key_type": {
+                    "type": "dropdown",
+                    "description": "",
+                    "options": {
+                        "key": "",
+                        "value": "",
+                        "master": "",
+                        "common_key": "",
+                        "other": ""
+                    },
+                    "default_options": {
+                        "other": "true"
+                    }
+                },
+                "text_category": {
+                    "type": "dropdown",
+                    "description": "",
+                    "options": {
+                        "name": "",
+                        "address": "",
+                        "email": "",
+                        "number": "",
+                        "alphabet": "",
+                        "japanese": "",
+                        "checkbox": "",
+                        "mix": ""
+                    },
+                    "default_options": {
+                        "mix": "true"
+                    }
+                },
+                "text_type": {
+                    "type": "dropdown",
+                    "description": "",
+                    "options": {
+                        "handwriting": "",
+                        "printed": "",
+                        "mixed": ""
+                    },
+                    "default_options": {
+                        "printed": "true"
+                    }
+                },
+                "is_targeted": {
+                    "type": "dropdown",
+                    "description": "",
+                    "options": {
+                        "yes": "",
+                        "no": ""
+                    },
+                    "default_options": {
+                        "no": "true"
+                    }
+                },
+                "formal_key": {
+                    "type": "text",
+                    "description": "",
+                    "default_value": ""
+                },
+                "note": {
+                    "type": "text",
+                    "description": "",
+                    "default_value": ""
+                }
+            },
+            "file": {}
+        }
+    }
+}

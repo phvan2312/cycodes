@@ -1,0 +1,464 @@
+[
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Katakana",
+    "key_name": "c_lastname_kana",
+    "ocr": "オオダカオ",
+    "label": "オオダカオ"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Katakana",
+    "key_name": "c_firstname_kana",
+    "ocr": "ヒサシ",
+    "label": "ヒサシ"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Mix",
+    "key_name": "c_lastname",
+    "ocr": "大高",
+    "label": "大高"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Mix",
+    "key_name": "c_firstname",
+    "ocr": "寿",
+    "label": "寿"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Number",
+    "key_name": "c_birthday",
+    "ocr": "951219",
+    "label": "951219"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Number",
+    "key_name": "c_sex",
+    "ocr": "1",
+    "label": "1"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Number",
+    "key_name": "c_tel",
+    "ocr": "09068719799",
+    "label": "09068719799"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Alphabet",
+    "key_name": "c_email_address",
+    "ocr": "hisashio257@npdev.wh",
+    "label": "hisashio257@npdev.wh"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Number",
+    "key_name": "c_postcode",
+    "ocr": "8710060",
+    "label": "8710060"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Kanji",
+    "key_name": "c_prefecture",
+    "ocr": "大分県",
+    "label": "大分県"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Mix",
+    "key_name": "c_municipal",
+    "ocr": "中津市",
+    "label": "中津市"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Mix",
+    "key_name": "c_address",
+    "ocr": "北稲堀2-16-5",
+    "label": "北稲堀2-16-5"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Checkbox",
+    "key_name": "c_adult_flg",
+    "ocr": "ON",
+    "label": "ON"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Alphabet",
+    "key_name": "c_identificationnumber",
+    "ocr": "VMNNU2XBEM5D",
+    "label": "VMNNU2XBEM5D"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Number",
+    "key_name": "c_purchasedate",
+    "ocr": "180529",
+    "label": "180529"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Checkbox",
+    "key_name": "c_directmail",
+    "ocr": "ON",
+    "label": "ON"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Checkbox",
+    "key_name": "c_personal_information",
+    "ocr": "ON",
+    "label": "ON"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Alphabet",
+    "key_name": "c_kbn",
+    "ocr": "JA",
+    "label": "JA"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Mix",
+    "key_name": "identification_fullname",
+    "ocr": "",
+    "label": ""
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Mix",
+    "key_name": "identification_birthday",
+    "ocr": "",
+    "label": ""
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Number",
+    "key_name": "identification_flg",
+    "ocr": "0",
+    "label": "0"
+  },
+  {
+    "file_name": "ja_20181220183650-029.pdf",
+    "data_type": "Number",
+    "key_name": "c_read_status",
+    "ocr": "",
+    "label": ""
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Katakana",
+    "key_name": "c_lastname_kana",
+    "ocr": "オオバ",
+    "label": "オオバ"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Katakana",
+    "key_name": "c_firstname_kana",
+    "ocr": "ユズカ",
+    "label": "ユズカ"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Mix",
+    "key_name": "c_lastname",
+    "ocr": "大場",
+    "label": "大場"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Mix",
+    "key_name": "c_firstname",
+    "ocr": "柚香",
+    "label": "柚香"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Number",
+    "key_name": "c_birthday",
+    "ocr": "921217",
+    "label": "921217"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Number",
+    "key_name": "c_sex",
+    "ocr": "2",
+    "label": "2"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Number",
+    "key_name": "c_tel",
+    "ocr": "09071728509",
+    "label": "09071728509"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Alphabet",
+    "key_name": "c_email_address",
+    "ocr": "jyuzukaoobo@uicj0zq.0gy",
+    "label": "jyuzukaoobo@uicj0zq.0gy"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Number",
+    "key_name": "c_postcode",
+    "ocr": "8900033",
+    "label": "8900033"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Kanji",
+    "key_name": "c_prefecture",
+    "ocr": "鹿児島県",
+    "label": "鹿児島県"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Mix",
+    "key_name": "c_municipal",
+    "ocr": "鹿児島市",
+    "label": "鹿児島市"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Mix",
+    "key_name": "c_address",
+    "ocr": "西別府町1-8-16",
+    "label": "西別府町1-8-16"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Checkbox",
+    "key_name": "c_adult_flg",
+    "ocr": "ON",
+    "label": "ON"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Alphabet",
+    "key_name": "c_identificationnumber",
+    "ocr": "P57EHEG5C39W",
+    "label": "P57EHEG5C39W"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Number",
+    "key_name": "c_purchasedate",
+    "ocr": "180515",
+    "label": "180515"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Checkbox",
+    "key_name": "c_directmail",
+    "ocr": "OFF",
+    "label": "OFF"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Checkbox",
+    "key_name": "c_personal_information",
+    "ocr": "ON",
+    "label": "ON"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Alphabet",
+    "key_name": "c_kbn",
+    "ocr": "JA",
+    "label": "JA"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Mix",
+    "key_name": "identification_fullname",
+    "ocr": "菅生敏行",
+    "label": "菅生敏行"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Mix",
+    "key_name": "identification_birthday",
+    "ocr": "昭和48年4月3日",
+    "label": "昭和48年4月3日"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Number",
+    "key_name": "identification_flg",
+    "ocr": "1",
+    "label": "1"
+  },
+  {
+    "file_name": "ja_20181220183650-015.pdf",
+    "data_type": "Number",
+    "key_name": "c_read_status",
+    "ocr": "",
+    "label": ""
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Katakana",
+    "key_name": "c_lastname_kana",
+    "ocr": "イシグロ",
+    "label": "イシグロ"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Katakana",
+    "key_name": "c_firstname_kana",
+    "ocr": "リホ",
+    "label": "リホ"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Mix",
+    "key_name": "c_lastname",
+    "ocr": "石倉",
+    "label": "石倉"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Mix",
+    "key_name": "c_firstname",
+    "ocr": "里穂",
+    "label": "里穂"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Number",
+    "key_name": "c_birthday",
+    "ocr": "660111",
+    "label": "660111"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Number",
+    "key_name": "c_sex",
+    "ocr": "2",
+    "label": "2"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Number",
+    "key_name": "c_tel",
+    "ocr": "09040578605",
+    "label": "09040578605"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Alphabet",
+    "key_name": "c_email_address",
+    "ocr": "riho_ishikura@rhwr.nux",
+    "label": "riho_ishikura@rhwr.nux"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Number",
+    "key_name": "c_postcode",
+    "ocr": "2310822",
+    "label": "2310822"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Kanji",
+    "key_name": "c_prefecture",
+    "ocr": "神奈川県",
+    "label": "神奈川県"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Mix",
+    "key_name": "c_municipal",
+    "ocr": "横浜市",
+    "label": "横浜市"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Mix",
+    "key_name": "c_address",
+    "ocr": "中区元町3-19-5本敷元町ビル315",
+    "label": "中区元町3-19-5本敷元町ビル315"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Checkbox",
+    "key_name": "c_adult_flg",
+    "ocr": "ON",
+    "label": "ON"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Alphabet",
+    "key_name": "c_identificationnumber",
+    "ocr": "PJCH6KQ4HRVS",
+    "label": "PJCH6KQ4HRVS"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Number",
+    "key_name": "c_purchasedate",
+    "ocr": "180502",
+    "label": "180502"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Checkbox",
+    "key_name": "c_directmail",
+    "ocr": "OFF",
+    "label": "OFF"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Checkbox",
+    "key_name": "c_personal_information",
+    "ocr": "ON",
+    "label": "ON"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Alphabet",
+    "key_name": "c_kbn",
+    "ocr": "JA",
+    "label": "JA"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Mix",
+    "key_name": "identification_fullname",
+    "ocr": "三河荷理菜",
+    "label": "三河荷理菜"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Mix",
+    "key_name": "identification_birthday",
+    "ocr": "平成1年4月9日",
+    "label": "平成1年4月9日"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Number",
+    "key_name": "identification_flg",
+    "ocr": "1",
+    "label": "1"
+  },
+  {
+    "file_name": "ja_20181220183649-002.pdf",
+    "data_type": "Number",
+    "key_name": "c_read_status",
+    "ocr": "",
+    "label": ""
+  }
+]

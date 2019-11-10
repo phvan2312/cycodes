@@ -1,0 +1,696 @@
+{
+    "file_name": "(仕様変更依頼書)TWBA_DAN0_001_1.png",
+    "attributes": {
+        "_via_img_metadata": {
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3314,
+                        "y": 264,
+                        "width": 676,
+                        "height": 83
+                    },
+                    "region_attributes": {
+                        "label": "HGT Confidential",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1889,
+                        "y": 439,
+                        "width": 1059,
+                        "height": 92
+                    },
+                    "region_attributes": {
+                        "label": "DATE: 2017/02/03",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3502,
+                        "y": 453,
+                        "width": 143,
+                        "height": 86
+                    },
+                    "region_attributes": {
+                        "label": "NO.",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 168,
+                        "y": 458,
+                        "width": 1388,
+                        "height": 201
+                    },
+                    "region_attributes": {
+                        "label": "仕様変更依頼書",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2524,
+                        "y": 620,
+                        "width": 163,
+                        "height": 79
+                    },
+                    "region_attributes": {
+                        "label": "HGT",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1221,
+                        "y": 676,
+                        "width": 544,
+                        "height": 103
+                    },
+                    "region_attributes": {
+                        "label": "(2016)⊿3",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2548,
+                        "y": 737,
+                        "width": 203,
+                        "height": 81
+                    },
+                    "region_attributes": {
+                        "label": "10G3",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1976,
+                        "y": 842,
+                        "width": 127,
+                        "height": 70
+                    },
+                    "region_attributes": {
+                        "label": "設計",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2573,
+                        "y": 842,
+                        "width": 139,
+                        "height": 67
+                    },
+                    "region_attributes": {
+                        "label": "研究",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3175,
+                        "y": 846,
+                        "width": 129,
+                        "height": 67
+                    },
+                    "region_attributes": {
+                        "label": "電装",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3316,
+                        "y": 928,
+                        "width": 87,
+                        "height": 58
+                    },
+                    "region_attributes": {
+                        "label": "CH",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1883,
+                        "y": 925,
+                        "width": 86,
+                        "height": 59
+                    },
+                    "region_attributes": {
+                        "label": "SC",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2366,
+                        "y": 925,
+                        "width": 74,
+                        "height": 60
+                    },
+                    "region_attributes": {
+                        "label": "SP",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2571,
+                        "y": 925,
+                        "width": 138,
+                        "height": 64
+                    },
+                    "region_attributes": {
+                        "label": "担研",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2838,
+                        "y": 924,
+                        "width": 87,
+                        "height": 62
+                    },
+                    "region_attributes": {
+                        "label": "CH",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3073,
+                        "y": 925,
+                        "width": 91,
+                        "height": 58
+                    },
+                    "region_attributes": {
+                        "label": "SC",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2118,
+                        "y": 925,
+                        "width": 91,
+                        "height": 60
+                    },
+                    "region_attributes": {
+                        "label": "CH",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 261,
+                        "y": 1013,
+                        "width": 605,
+                        "height": 107
+                    },
+                    "region_attributes": {
+                        "label": "機種:TWBA",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3492,
+                        "y": 1381,
+                        "width": 536,
+                        "height": 104
+                    },
+                    "region_attributes": {
+                        "label": "仕様FIX : -",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1814,
+                        "y": 1377,
+                        "width": 698,
+                        "height": 99
+                    },
+                    "region_attributes": {
+                        "label": "適用: DAN0 Lot",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2624,
+                        "y": 1386,
+                        "width": 704,
+                        "height": 97
+                    },
+                    "region_attributes": {
+                        "label": "AF日程:2017/Jun",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 171,
+                        "y": 1390,
+                        "width": 1348,
+                        "height": 99
+                    },
+                    "region_attributes": {
+                        "label": "項目: Dan0定数FIXに向けた仕様変更",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3504,
+                        "y": 1606,
+                        "width": 808,
+                        "height": 95
+                    },
+                    "region_attributes": {
+                        "label": "定数FIX : 2017/02/03",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 194,
+                        "y": 1606,
+                        "width": 1458,
+                        "height": 107
+                    },
+                    "region_attributes": {
+                        "label": "目的: DAN0定数定数Fixに向けた仕様変更",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 343,
+                        "y": 2683,
+                        "width": 938,
+                        "height": 106
+                    },
+                    "region_attributes": {
+                        "label": "ベースとなるKA_FHEV",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 343,
+                        "y": 2803,
+                        "width": 1440,
+                        "height": 97
+                    },
+                    "region_attributes": {
+                        "label": "7962Z-TWA-A010-M1 Spec",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 329,
+                        "y": 2922,
+                        "width": 1276,
+                        "height": 103
+                    },
+                    "region_attributes": {
+                        "label": "から、下記を変更お願いします。",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3348,
+                        "y": 3155,
+                        "width": 510,
+                        "height": 86
+                    },
+                    "region_attributes": {
+                        "label": "SPEC ページ",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 493,
+                        "y": 3193,
+                        "width": 406,
+                        "height": 100
+                    },
+                    "region_attributes": {
+                        "label": "定数変更",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 480,
+                        "y": 3304,
+                        "width": 1860,
+                        "height": 108
+                    },
+                    "region_attributes": {
+                        "label": "3.18. VFbaseの算出(基本FAN電圧値)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3475,
+                        "y": 3319,
+                        "width": 231,
+                        "height": 93
+                    },
+                    "region_attributes": {
+                        "label": "P32",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 478,
+                        "y": 3431,
+                        "width": 1142,
+                        "height": 101
+                    },
+                    "region_attributes": {
+                        "label": "11.1.1.1. EWP能力算出",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3475,
+                        "y": 3437,
+                        "width": 227,
+                        "height": 93
+                    },
+                    "region_attributes": {
+                        "label": "P81",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 143,
+                        "y": 5733,
+                        "width": 251,
+                        "height": 123
+                    },
+                    "region_attributes": {
+                        "label": "備考",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                }
+            ],
+            "file_attributes": {}
+        },
+        "_via_attributes": {
+            "region": {
+                "label": {
+                    "type": "text",
+                    "description": "",
+                    "default_value": ""
+                },
+                "key_type": {
+                    "type": "dropdown",
+                    "description": "",
+                    "options": {
+                        "key": "",
+                        "value": "",
+                        "master": "",
+                        "common_key": "",
+                        "other": ""
+                    },
+                    "default_options": {
+                        "other": "true"
+                    }
+                },
+                "text_category": {
+                    "type": "dropdown",
+                    "description": "",
+                    "options": {
+                        "name": "",
+                        "address": "",
+                        "email": "",
+                        "number": "",
+                        "alphabet": "",
+                        "japanese": "",
+                        "checkbox": "",
+                        "mix": ""
+                    },
+                    "default_options": {
+                        "mix": "true"
+                    }
+                },
+                "text_type": {
+                    "type": "dropdown",
+                    "description": "",
+                    "options": {
+                        "handwriting": "",
+                        "printed": "",
+                        "mixed": ""
+                    },
+                    "default_options": {
+                        "printed": "true"
+                    }
+                },
+                "is_targeted": {
+                    "type": "dropdown",
+                    "description": "",
+                    "options": {
+                        "yes": "",
+                        "no": ""
+                    },
+                    "default_options": {
+                        "no": "true"
+                    }
+                },
+                "formal_key": {
+                    "type": "text",
+                    "description": "",
+                    "default_value": ""
+                },
+                "note": {
+                    "type": "text",
+                    "description": "",
+                    "default_value": ""
+                }
+            },
+            "file": {}
+        }
+    }
+}

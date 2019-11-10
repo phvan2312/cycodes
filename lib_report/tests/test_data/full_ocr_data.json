@@ -1,0 +1,4550 @@
+{
+    "(仕様変更依頼書)TWBA_DAN0_001": {
+        "page_0000": {
+            "table1_cell03_line01": {
+                "text": "備考",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "備考",
+                "location": [
+                    1902,
+                    44,
+                    1958,
+                    134
+                ]
+            },
+            "table1_cell04_line02": {
+                "text": "P81",
+                "confidences": [
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "P81",
+                "location": [
+                    1140,
+                    1158,
+                    1182,
+                    1228
+                ]
+            },
+            "table1_cell04_line03": {
+                "text": "11.1.1.1. EWP能力算出",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "11.1.1.1. EWP能力算出",
+                "location": [
+                    1140,
+                    158,
+                    1182,
+                    540
+                ]
+            },
+            "table1_cell04_line04": {
+                "text": "P32",
+                "confidences": [
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "P32",
+                "location": [
+                    1096,
+                    1158,
+                    1148,
+                    1230
+                ]
+            },
+            "table1_cell04_line05": {
+                "text": "3.18. VFbaseの算出(基本FAN電圧値)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "3.18. VFbase の算出 (基本FAN電圧値)",
+                "location": [
+                    1100,
+                    158,
+                    1142,
+                    780
+                ]
+            },
+            "table1_cell04_line06": {
+                "text": "定数変更",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "定数変更",
+                "location": [
+                    1058,
+                    156,
+                    1100,
+                    302
+                ]
+            },
+            "table1_cell04_line07": {
+                "text": "SPECページ",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "SPEC ページ",
+                "location": [
+                    1042,
+                    1112,
+                    1080,
+                    1290
+                ]
+            },
+            "table1_cell04_line08": {
+                "text": "から、下記を変更お願いします。",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "から, 下記を変更お願いします.",
+                "location": [
+                    970,
+                    110,
+                    1012,
+                    530
+                ]
+            },
+            "table1_cell04_line09": {
+                "text": "7962Z-TWA-A010-M1.5pec",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "7962Z-TWA-A010-M1 Spec",
+                "location": [
+                    930,
+                    112,
+                    972,
+                    594
+                ]
+            },
+            "table1_cell04_line10": {
+                "text": "ベースとなるKA_FHEV",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "ベースとなるKA_FHEV",
+                "location": [
+                    890,
+                    110,
+                    928,
+                    430
+                ]
+            },
+            "table1_cell06_line11": {
+                "text": "目的: DANO定数定数Fixに向けた仕様変更",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "目的: DANO定数定数Fixに向けた仕様変更",
+                "location": [
+                    530,
+                    58,
+                    572,
+                    554
+                ]
+            },
+            "table1_cell05_line12": {
+                "text": "定数FIX: 2017/02/03",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "定数FIX: 2017/02/03",
+                "location": [
+                    528,
+                    1164,
+                    566,
+                    1436
+                ]
+            },
+            "table1_cell07_line13": {
+                "text": "-",
+                "confidences": [
+                    1
+                ],
+                "ocr": "-",
+                "location": [
+                    462,
+                    1316,
+                    488,
+                    1342
+                ]
+            },
+            "table1_cell10_line14": {
+                "text": "項目: Dan0定数FIXに向けた仕様変更",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "項目: DanO定数FIXに向けた仕様変更",
+                "location": [
+                    460,
+                    56,
+                    498,
+                    508
+                ]
+            },
+            "table1_cell07_line15": {
+                "text": "仕様FIX:",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "仕様FIX:",
+                "location": [
+                    456,
+                    1164,
+                    494,
+                    1294
+                ]
+            },
+            "table1_cell08_line16": {
+                "text": "AF日程 : 2017/Jun",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "AF日程 : 2017/Jun",
+                "location": [
+                    456,
+                    872,
+                    498,
+                    1116
+                ]
+            },
+            "table1_cell09_line17": {
+                "text": "適用: DANO Lot",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "適用: DANO Lot",
+                "location": [
+                    454,
+                    604,
+                    496,
+                    836
+                ]
+            },
+            "table1_cell32_line18": {
+                "text": "機種: TWBA",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "機種: TWBA",
+                "location": [
+                    330,
+                    84,
+                    376,
+                    294
+                ]
+            },
+            "text_line19": {
+                "text": "CH",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "CH",
+                "location": [
+                    300,
+                    1098,
+                    332,
+                    1140
+                ]
+            },
+            "text_line20": {
+                "text": "担研",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "担研",
+                "location": [
+                    300,
+                    852,
+                    332,
+                    908
+                ]
+            },
+            "table1_cell20_line21": {
+                "text": "CH",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "CH",
+                "location": [
+                    300,
+                    700,
+                    332,
+                    740
+                ]
+            },
+            "text_line22": {
+                "text": "SC",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "SC",
+                "location": [
+                    298,
+                    1020,
+                    334,
+                    1058
+                ]
+            },
+            "table1_cell18_line23": {
+                "text": "CH",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "CH",
+                "location": [
+                    298,
+                    940,
+                    334,
+                    982
+                ]
+            },
+            "table1_cell19_line24": {
+                "text": "SP",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "SP",
+                "location": [
+                    298,
+                    782,
+                    330,
+                    818
+                ]
+            },
+            "table1_cell21_line25": {
+                "text": "SC",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "SC",
+                "location": [
+                    298,
+                    622,
+                    334,
+                    660
+                ]
+            },
+            "table1_cell22_line26": {
+                "text": "電装",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "電装",
+                "location": [
+                    274,
+                    1052,
+                    310,
+                    1104
+                ]
+            },
+            "table1_cell23_line27": {
+                "text": "研究",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "研究",
+                "location": [
+                    274,
+                    852,
+                    306,
+                    908
+                ]
+            },
+            "table1_cell24_line28": {
+                "text": "設計",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "設計",
+                "location": [
+                    274,
+                    654,
+                    306,
+                    706
+                ]
+            },
+            "table1_cell28_line29": {
+                "text": "10G3",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "10G3",
+                "location": [
+                    242,
+                    844,
+                    272,
+                    922
+                ]
+            },
+            "table1_cell32_line30": {
+                "text": "(2016)⊿3",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "(2016)43",
+                "location": [
+                    220,
+                    404,
+                    262,
+                    586
+                ]
+            },
+            "table1_cell30_line31": {
+                "text": "HGT",
+                "confidences": [
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "HGT",
+                "location": [
+                    200,
+                    836,
+                    236,
+                    900
+                ]
+            },
+            "table1_cell32_line32": {
+                "text": "仕様変更依頼書",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "仕様変更依頼書",
+                "location": [
+                    146,
+                    50,
+                    220,
+                    526
+                ]
+            },
+            "table1_cell33_line33": {
+                "text": "NO.",
+                "confidences": [
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "No.",
+                "location": [
+                    140,
+                    1160,
+                    186,
+                    1220
+                ]
+            },
+            "table1_cell31_line34": {
+                "text": "DATE:",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "DATE:",
+                "location": [
+                    144,
+                    626,
+                    178,
+                    724
+                ]
+            },
+            "table1_cell31_line35": {
+                "text": "2017/02/03",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "2017/02/03",
+                "location": [
+                    138,
+                    766,
+                    180,
+                    988
+                ]
+            },
+            "table1_cell01_line36": {
+                "text": "HGT Confidential",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "HGT Confidential",
+                "location": [
+                    82,
+                    1096,
+                    120,
+                    1336
+                ]
+            }
+        },
+        "page_0001": {
+            "table1_cell03_line01": {
+                "text": "備考",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "備考",
+                "location": [
+                    1904,
+                    44,
+                    1960,
+                    130
+                ]
+            },
+            "table1_cell04_line02": {
+                "text": "※外気センサーエラー時は、VFbasemaxはcの値とする",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "※外気センサーエラー時は, VFbasemaxはcの値とする",
+                "location": [
+                    1480,
+                    332,
+                    1522,
+                    992
+                ]
+            },
+            "table1_cell04_line03": {
+                "text": "a",
+                "confidences": [
+                    1
+                ],
+                "ocr": "a",
+                "location": [
+                    1408,
+                    476,
+                    1440,
+                    502
+                ]
+            },
+            "table1_cell04_line04": {
+                "text": "12.0",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "12.0",
+                "location": [
+                    1400,
+                    1202,
+                    1442,
+                    1278
+                ]
+            },
+            "table1_cell04_line05": {
+                "text": "12.0",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "12.0",
+                "location": [
+                    1400,
+                    1080,
+                    1442,
+                    1156
+                ]
+            },
+            "table1_cell04_line06": {
+                "text": "b",
+                "confidences": [
+                    1
+                ],
+                "ocr": "b",
+                "location": [
+                    1402,
+                    606,
+                    1438,
+                    638
+                ]
+            },
+            "table1_cell04_line07": {
+                "text": "Tam2 (˚C)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "Tam2 (°C)",
+                "location": [
+                    1402,
+                    736,
+                    1436,
+                    860
+                ]
+            },
+            "table1_cell04_line08": {
+                "text": "C",
+                "confidences": [
+                    1
+                ],
+                "ocr": "C",
+                "location": [
+                    1348,
+                    1102,
+                    1380,
+                    1132
+                ]
+            },
+            "table1_cell04_line09": {
+                "text": "d",
+                "confidences": [
+                    1
+                ],
+                "ocr": "d",
+                "location": [
+                    1338,
+                    1224,
+                    1384,
+                    1254
+                ]
+            },
+            "table1_cell04_line10": {
+                "text": "d",
+                "confidences": [
+                    1
+                ],
+                "ocr": "d",
+                "location": [
+                    1320,
+                    364,
+                    1362,
+                    394
+                ]
+            },
+            "table1_cell04_line11": {
+                "text": "-10",
+                "confidences": [
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "-10",
+                "location": [
+                    1220,
+                    1178,
+                    1256,
+                    1236
+                ]
+            },
+            "table1_cell04_line12": {
+                "text": "C",
+                "confidences": [
+                    1
+                ],
+                "ocr": "C",
+                "location": [
+                    1220,
+                    366,
+                    1252,
+                    394
+                ]
+            },
+            "table1_cell04_line13": {
+                "text": "-15",
+                "confidences": [
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "-15",
+                "location": [
+                    1216,
+                    1080,
+                    1258,
+                    1140
+                ]
+            },
+            "table1_cell04_line14": {
+                "text": "a",
+                "confidences": [
+                    1
+                ],
+                "ocr": "a",
+                "location": [
+                    1162,
+                    1094,
+                    1194,
+                    1124
+                ]
+            },
+            "table1_cell04_line15": {
+                "text": "b",
+                "confidences": [
+                    1
+                ],
+                "ocr": "b",
+                "location": [
+                    1160,
+                    1192,
+                    1196,
+                    1222
+                ]
+            },
+            "table1_cell04_line16": {
+                "text": "VFbasemax",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "VFbasemax",
+                "location": [
+                    1154,
+                    320,
+                    1184,
+                    468
+                ]
+            },
+            "table1_cell04_line17": {
+                "text": "MODEがDEFの時",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "MODEがDEFの時",
+                "location": [
+                    1052,
+                    232,
+                    1090,
+                    472
+                ]
+            },
+            "table1_cell04_line18": {
+                "text": "MODEがDEF以外の時、VFbasemaxは [3.8 VFmax]の吹き出し口毎の値とする。",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "MODEがDEF以外の時. VFbasemaxは [3.8 VFmax]の吹き出し口毎の値とする.",
+                "location": [
+                    982,
+                    232,
+                    1020,
+                    1202
+                ]
+            },
+            "table1_cell04_line19": {
+                "text": "VFbasemaxは下記による。",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "VFbasemax は下記による.",
+                "location": [
+                    912,
+                    236,
+                    950,
+                    564
+                ]
+            },
+            "table1_cell04_line20": {
+                "text": "VFbase =0(V)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "VFbase =O(V)",
+                "location": [
+                    842,
+                    352,
+                    880,
+                    548
+                ]
+            },
+            "table1_cell04_line21": {
+                "text": "3 FAN OFF (システムOFFもしくはFAN水温補正制御によるVFtw= 0.0(V))の時",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "3 FAN OFF (システムOFF もしくはFAN 水温補正制御によるVFtw= 0.0(V))の時",
+                "location": [
+                    806,
+                    230,
+                    844,
+                    1260
+                ]
+            },
+            "table1_cell04_line22": {
+                "text": "VFbase = MIN(VFauto, VFbasemax)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "VFbase = MIN(VFauto, VFbasemax)",
+                "location": [
+                    776,
+                    352,
+                    806,
+                    800
+                ]
+            },
+            "table1_cell04_line23": {
+                "text": "それ以外",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "それ以外",
+                "location": [
+                    736,
+                    320,
+                    774,
+                    442
+                ]
+            },
+            "table1_cell04_line24": {
+                "text": "VFmin46Vする。",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "VFmin46Vする.",
+                "location": [
+                    700,
+                    352,
+                    742,
+                    590
+                ]
+            },
+            "table1_cell04_line25": {
+                "text": "VFbase = MAX(MIN(VFauto, VFbasemax), VFmin)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "VFbaseニ MAX(MIN(VFauto, VFbasemax), VFmin)",
+                "location": [
+                    668,
+                    352,
+                    706,
+                    1008
+                ]
+            },
+            "table1_cell04_line26": {
+                "text": "RR席快適性制御判定成立の時",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "RR席快適性制御判定成立の時",
+                "location": [
+                    634,
+                    320,
+                    668,
+                    722
+                ]
+            },
+            "table1_cell04_line27": {
+                "text": "2 FANオートのとき",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "2 FAN オートのとき",
+                "location": [
+                    596,
+                    232,
+                    634,
+                    488
+                ]
+            },
+            "table1_cell04_line28": {
+                "text": "VFbase = MIN(VFman, VFbasemax)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "VFbase = MIN(VFman, VFbasemax)",
+                "location": [
+                    562,
+                    320,
+                    604,
+                    770
+                ]
+            },
+            "table1_cell04_line29": {
+                "text": "1 FANマニュアルのとき",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "1 FAN マニュアルのとき",
+                "location": [
+                    528,
+                    230,
+                    566,
+                    544
+                ]
+            },
+            "table1_cell04_line30": {
+                "text": "3.18. VFbaseの算出(基本FAN電圧値)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "3.18. VFbase の算出(基本FAN電圧値)",
+                "location": [
+                    484,
+                    170,
+                    526,
+                    708
+                ]
+            },
+            "table1_cell04_line31": {
+                "text": "現状内容:",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "現状内容:",
+                "location": [
+                    236,
+                    48,
+                    282,
+                    206
+                ]
+            },
+            "table1_cell06_line32": {
+                "text": "TWBA",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "TWBA",
+                "location": [
+                    156,
+                    852,
+                    212,
+                    960
+                ]
+            },
+            "table1_cell07_line33": {
+                "text": "仕様変更依頼書",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "仕様変更依頼書",
+                "location": [
+                    146,
+                    50,
+                    220,
+                    526
+                ]
+            },
+            "table1_cell06_line34": {
+                "text": "機種:",
+                "confidences": [
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "機種:",
+                "location": [
+                    142,
+                    636,
+                    198,
+                    740
+                ]
+            }
+        },
+        "page_0002": {
+            "table1_cell03_line01": {
+                "text": "備考",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "備考",
+                "location": [
+                    1904,
+                    44,
+                    1960,
+                    130
+                ]
+            },
+            "table1_cell04_line02": {
+                "text": "※外気センサーエラー時は、VFbasemaxはcの値とする",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "※外気センサーエラー時は, VFbasemaxはcの値とする",
+                "location": [
+                    1480,
+                    332,
+                    1522,
+                    992
+                ]
+            },
+            "table1_cell04_line03": {
+                "text": "a",
+                "confidences": [
+                    1
+                ],
+                "ocr": "a",
+                "location": [
+                    1408,
+                    476,
+                    1440,
+                    502
+                ]
+            },
+            "table1_cell04_line04": {
+                "text": "12.0",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "12.0",
+                "location": [
+                    1400,
+                    1202,
+                    1442,
+                    1278
+                ]
+            },
+            "table1_cell04_line05": {
+                "text": "12.0",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "12.0",
+                "location": [
+                    1400,
+                    1080,
+                    1442,
+                    1156
+                ]
+            },
+            "table1_cell04_line06": {
+                "text": "b",
+                "confidences": [
+                    1
+                ],
+                "ocr": "b",
+                "location": [
+                    1402,
+                    606,
+                    1438,
+                    638
+                ]
+            },
+            "table1_cell04_line07": {
+                "text": "Tam2 (˚C)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "Tam2 (°C)",
+                "location": [
+                    1402,
+                    736,
+                    1436,
+                    860
+                ]
+            },
+            "table1_cell04_line08": {
+                "text": "C",
+                "confidences": [
+                    1
+                ],
+                "ocr": "C",
+                "location": [
+                    1348,
+                    1102,
+                    1380,
+                    1132
+                ]
+            },
+            "table1_cell04_line09": {
+                "text": "d",
+                "confidences": [
+                    1
+                ],
+                "ocr": "d",
+                "location": [
+                    1338,
+                    1224,
+                    1384,
+                    1254
+                ]
+            },
+            "table1_cell04_line10": {
+                "text": "d",
+                "confidences": [
+                    1
+                ],
+                "ocr": "d",
+                "location": [
+                    1320,
+                    364,
+                    1362,
+                    394
+                ]
+            },
+            "table1_cell04_line11": {
+                "text": "-10",
+                "confidences": [
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "-10",
+                "location": [
+                    1220,
+                    1178,
+                    1256,
+                    1236
+                ]
+            },
+            "table1_cell04_line12": {
+                "text": "C",
+                "confidences": [
+                    1
+                ],
+                "ocr": "C",
+                "location": [
+                    1220,
+                    366,
+                    1252,
+                    394
+                ]
+            },
+            "table1_cell04_line13": {
+                "text": "-15",
+                "confidences": [
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "-15",
+                "location": [
+                    1216,
+                    1080,
+                    1258,
+                    1140
+                ]
+            },
+            "table1_cell04_line14": {
+                "text": "a",
+                "confidences": [
+                    1
+                ],
+                "ocr": "a",
+                "location": [
+                    1162,
+                    1094,
+                    1194,
+                    1124
+                ]
+            },
+            "table1_cell04_line15": {
+                "text": "b",
+                "confidences": [
+                    1
+                ],
+                "ocr": "b",
+                "location": [
+                    1160,
+                    1192,
+                    1196,
+                    1222
+                ]
+            },
+            "table1_cell04_line16": {
+                "text": "VFbasemax",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "VFbasemax",
+                "location": [
+                    1154,
+                    320,
+                    1184,
+                    468
+                ]
+            },
+            "table1_cell04_line17": {
+                "text": "MODEがDEFの時",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "MODEがDEFの時",
+                "location": [
+                    1052,
+                    232,
+                    1090,
+                    472
+                ]
+            },
+            "table1_cell04_line18": {
+                "text": "MODEがDEF以外の時、VFbasemaxは [3.8 VFmax]の吹き出し口毎の値とする。",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "MODEがDEF以外の時. VFbasemaxは [3.8 VFmax]の吹き出し口毎の値とする.",
+                "location": [
+                    982,
+                    232,
+                    1020,
+                    1202
+                ]
+            },
+            "table1_cell04_line19": {
+                "text": "VFbasemaxは下記による。",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "VFbasemax は下記による.",
+                "location": [
+                    912,
+                    236,
+                    950,
+                    564
+                ]
+            },
+            "table1_cell04_line20": {
+                "text": "VFbase =0(V)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "VFbase =O(V)",
+                "location": [
+                    842,
+                    352,
+                    880,
+                    548
+                ]
+            },
+            "table1_cell04_line21": {
+                "text": "3 FAN OFF (システムOFFもしくはFAN水温補正制御によるVFtw= 0.0(V))の時",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "3 FAN OFF (システムOFF もしくはFAN 水温補正制御によるVFtw= 0.0(V))の時",
+                "location": [
+                    806,
+                    230,
+                    844,
+                    1260
+                ]
+            },
+            "table1_cell04_line22": {
+                "text": "VFbase = MIN(VFauto, VFbasemax)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "VFbase = MIN(VFauto, VFbasemax)",
+                "location": [
+                    776,
+                    352,
+                    806,
+                    800
+                ]
+            },
+            "table1_cell04_line23": {
+                "text": "それ以外",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "それ以外",
+                "location": [
+                    736,
+                    320,
+                    774,
+                    442
+                ]
+            },
+            "table1_cell04_line24": {
+                "text": "VFmint4Vする。",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "VFmint4Vする.",
+                "location": [
+                    700,
+                    352,
+                    742,
+                    590
+                ]
+            },
+            "table1_cell04_line25": {
+                "text": "VFbase = MAX(MIN(VFauto, VFbasemax), VFmin)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "VFbaseニ MAX(MIN(VFauto, VFbasemax), VFmin)",
+                "location": [
+                    668,
+                    352,
+                    706,
+                    1008
+                ]
+            },
+            "table1_cell04_line26": {
+                "text": "RR席快適性制御判定成立の時",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "RR席快適性制御判定成立の時",
+                "location": [
+                    634,
+                    320,
+                    668,
+                    722
+                ]
+            },
+            "table1_cell04_line27": {
+                "text": "2 FANオートのとき",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "2 FAN オートのとき",
+                "location": [
+                    596,
+                    232,
+                    634,
+                    488
+                ]
+            },
+            "table1_cell04_line28": {
+                "text": "VFbase = MIN(VFman, VFbasemax)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "VFbase = MIN(VFman, VFbasemax)",
+                "location": [
+                    562,
+                    320,
+                    604,
+                    770
+                ]
+            },
+            "table1_cell04_line29": {
+                "text": "1 FANマニュアルのとき",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "1 FAN マニュアルのとき",
+                "location": [
+                    528,
+                    230,
+                    566,
+                    544
+                ]
+            },
+            "table1_cell04_line30": {
+                "text": "3.18. VFbaseの算出(基本FAN電圧値)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "3.18. VFbase の算出(基本FAN電圧値)",
+                "location": [
+                    484,
+                    170,
+                    526,
+                    708
+                ]
+            },
+            "table1_cell04_line31": {
+                "text": "変更内容:",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "変更内容:",
+                "location": [
+                    244,
+                    58,
+                    286,
+                    214
+                ]
+            },
+            "table1_cell06_line32": {
+                "text": "TWBA",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "TWBA",
+                "location": [
+                    156,
+                    852,
+                    212,
+                    960
+                ]
+            },
+            "table1_cell07_line33": {
+                "text": "仕様変更依頼書",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "仕様変更依頼書",
+                "location": [
+                    146,
+                    50,
+                    220,
+                    526
+                ]
+            },
+            "table1_cell06_line34": {
+                "text": "機種:",
+                "confidences": [
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "機種:",
+                "location": [
+                    142,
+                    636,
+                    198,
+                    740
+                ]
+            }
+        },
+        "page_0003": {
+            "table1_cell03_line01": {
+                "text": "備考",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "備考",
+                "location": [
+                    1906,
+                    44,
+                    1958,
+                    130
+                ]
+            },
+            "table1_cell04_line02": {
+                "text": "WP_DUTY≦10%のときC_EWPACT=O",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "WP_DUTYS10%のときC_EWPACT=O",
+                "location": [
+                    1706,
+                    266,
+                    1744,
+                    762
+                ]
+            },
+            "table1_cell04_line03": {
+                "text": "WP_DUTY>10%のときC_EWPACT=1",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "WP_DUTY>10%のときC_EWPACT=1",
+                "location": [
+                    1670,
+                    266,
+                    1708,
+                    746
+                ]
+            },
+            "table1_cell04_line04": {
+                "text": "◆C_EWPACTの定義",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": ".C_EWPACTの定義",
+                "location": [
+                    1638,
+                    212,
+                    1672,
+                    488
+                ]
+            },
+            "table1_cell04_line05": {
+                "text": "計算値は1%刻みとし、1%以下は切捨てとする。",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "計算値は1%刻みとし. 1%以下は切捨てとする.",
+                "location": [
+                    1564,
+                    190,
+                    1602,
+                    746
+                ]
+            },
+            "table1_cell04_line06": {
+                "text": "50",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "50",
+                "location": [
+                    1520,
+                    1030,
+                    1556,
+                    1070
+                ]
+            },
+            "table1_cell04_line07": {
+                "text": "50",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "50",
+                "location": [
+                    1520,
+                    876,
+                    1556,
+                    918
+                ]
+            },
+            "table1_cell04_line08": {
+                "text": "50",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "50",
+                "location": [
+                    1520,
+                    724,
+                    1556,
+                    764
+                ]
+            },
+            "table1_cell04_line09": {
+                "text": "50",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "50",
+                "location": [
+                    1520,
+                    570,
+                    1556,
+                    610
+                ]
+            },
+            "table1_cell04_line10": {
+                "text": "WP_DUTY (%)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "WP_DUTY (%)",
+                "location": [
+                    1522,
+                    266,
+                    1552,
+                    458
+                ]
+            },
+            "table1_cell04_line11": {
+                "text": "4500",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "4500",
+                "location": [
+                    1480,
+                    1016,
+                    1516,
+                    1084
+                ]
+            },
+            "table1_cell04_line12": {
+                "text": "3000",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "3000",
+                "location": [
+                    1480,
+                    862,
+                    1516,
+                    930
+                ]
+            },
+            "table1_cell04_line13": {
+                "text": "1600",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "1600",
+                "location": [
+                    1480,
+                    712,
+                    1516,
+                    780
+                ]
+            },
+            "table1_cell04_line14": {
+                "text": "0",
+                "confidences": [
+                    1
+                ],
+                "ocr": "0",
+                "location": [
+                    1480,
+                    576,
+                    1516,
+                    604
+                ]
+            },
+            "table1_cell04_line15": {
+                "text": "ENGWP_RPM (rpm)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "ENGWP_RPM (rpm)",
+                "location": [
+                    1482,
+                    244,
+                    1516,
+                    482
+                ]
+            },
+            "table1_cell04_line16": {
+                "text": "3600",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "3600",
+                "location": [
+                    1430,
+                    740,
+                    1462,
+                    804
+                ]
+            },
+            "table1_cell04_line17": {
+                "text": "2600",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "2600",
+                "location": [
+                    1430,
+                    646,
+                    1462,
+                    710
+                ]
+            },
+            "table1_cell04_line18": {
+                "text": "ENGWP_RPM (rpm)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "ENGWP_RPM (rpm)",
+                "location": [
+                    1430,
+                    878,
+                    1460,
+                    1110
+                ]
+            },
+            "table1_cell04_line19": {
+                "text": "10",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "10",
+                "location": [
+                    1302,
+                    506,
+                    1344,
+                    550
+                ]
+            },
+            "table1_cell04_line20": {
+                "text": "*",
+                "confidences": [
+                    1
+                ],
+                "ocr": "*",
+                "location": [
+                    1222,
+                    520,
+                    1258,
+                    550
+                ]
+            },
+            "table1_cell04_line21": {
+                "text": "WP_DUTY(%)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "WP_DUTY(%)",
+                "location": [
+                    1160,
+                    442,
+                    1198,
+                    654
+                ]
+            },
+            "table1_cell04_line22": {
+                "text": "Gw_tgt=6(L/min)のとき",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "Gw_tgt=6(L/min)のとき",
+                "location": [
+                    1116,
+                    190,
+                    1158,
+                    482
+                ]
+            },
+            "table1_cell04_line23": {
+                "text": "50",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "50",
+                "location": [
+                    1022,
+                    1028,
+                    1058,
+                    1070
+                ]
+            },
+            "table1_cell04_line24": {
+                "text": "50",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "50",
+                "location": [
+                    1022,
+                    876,
+                    1054,
+                    920
+                ]
+            },
+            "table1_cell04_line25": {
+                "text": "50",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "50",
+                "location": [
+                    1022,
+                    722,
+                    1058,
+                    764
+                ]
+            },
+            "table1_cell04_line26": {
+                "text": "50",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "50",
+                "location": [
+                    1022,
+                    570,
+                    1054,
+                    610
+                ]
+            },
+            "table1_cell04_line27": {
+                "text": "WP DUTY (%)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "WP DUTY (%)",
+                "location": [
+                    1022,
+                    260,
+                    1060,
+                    462
+                ]
+            },
+            "table1_cell04_line28": {
+                "text": "4500",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "4500",
+                "location": [
+                    982,
+                    1016,
+                    1018,
+                    1084
+                ]
+            },
+            "table1_cell04_line29": {
+                "text": "3000",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "3000",
+                "location": [
+                    982,
+                    860,
+                    1018,
+                    932
+                ]
+            },
+            "table1_cell04_line30": {
+                "text": "1600",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "1600",
+                "location": [
+                    982,
+                    712,
+                    1018,
+                    780
+                ]
+            },
+            "table1_cell04_line31": {
+                "text": "0",
+                "confidences": [
+                    1
+                ],
+                "ocr": "0",
+                "location": [
+                    982,
+                    576,
+                    1018,
+                    604
+                ]
+            },
+            "table1_cell04_line32": {
+                "text": "ENGWP_RPM (rpm)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "ENGWP_RPM (rpm)",
+                "location": [
+                    984,
+                    238,
+                    1018,
+                    484
+                ]
+            },
+            "table1_cell04_line33": {
+                "text": "3600",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "3600",
+                "location": [
+                    942,
+                    652,
+                    974,
+                    716
+                ]
+            },
+            "table1_cell04_line34": {
+                "text": "2600",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "2600",
+                "location": [
+                    942,
+                    556,
+                    978,
+                    620
+                ]
+            },
+            "table1_cell04_line35": {
+                "text": "ENGWP_RPM (rpm)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "ENGWP_RPM (rpm)",
+                "location": [
+                    942,
+                    786,
+                    976,
+                    1020
+                ]
+            },
+            "table1_cell04_line36": {
+                "text": "10",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "10",
+                "location": [
+                    830,
+                    416,
+                    866,
+                    460
+                ]
+            },
+            "table1_cell04_line37": {
+                "text": "*",
+                "confidences": [
+                    1
+                ],
+                "ocr": "*",
+                "location": [
+                    748,
+                    430,
+                    780,
+                    460
+                ]
+            },
+            "table1_cell04_line38": {
+                "text": "WP_DUTY(%)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "WP_DUTY(%)",
+                "location": [
+                    682,
+                    352,
+                    724,
+                    560
+                ]
+            },
+            "table1_cell04_line39": {
+                "text": "Gw_tgt-10(L/min)のとき",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "Gw_tgt-10(L/min)のとき",
+                "location": [
+                    644,
+                    190,
+                    686,
+                    496
+                ]
+            },
+            "table1_cell04_line40": {
+                "text": "C_ENG_EWPRPMエラー時(データエラー、通信エラー) : ENGWP_RPM=0とする。",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "C_ENG_EWPRPMエラー時(データエラー. 通信エラー) : ENGWP_RPM=0 とする.",
+                "location": [
+                    566,
+                    188,
+                    604,
+                    1242
+                ]
+            },
+            "table1_cell04_line41": {
+                "text": "ENGWP_RPM :エンジンWP回転数: ENGWP_RPM= C_ENG_EWPRPM (rpm)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "ENGWP_RPM :エンジンWP回転数: ENGWP_RPM= C_ENG_EWPRPM (rpm)",
+                "location": [
+                    530,
+                    190,
+                    572,
+                    1188
+                ]
+            },
+            "table1_cell04_line42": {
+                "text": "10≦WP_DUTY≦100(%)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "10SWP_DUTYS100(%)",
+                "location": [
+                    462,
+                    192,
+                    500,
+                    526
+                ]
+            },
+            "table1_cell04_line43": {
+                "text": "ただし、以下の上下限リミットを設ける。",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "ただし, 以下の上下限リミットを設ける.",
+                "location": [
+                    428,
+                    190,
+                    462,
+                    650
+                ]
+            },
+            "table1_cell04_line44": {
+                "text": "ENGWP_RPMとGw_tgtによるテーブルから決定する。",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "ENGWP_RPMと Gw_tgt によるテーブルから決定する.",
+                "location": [
+                    390,
+                    190,
+                    428,
+                    868
+                ]
+            },
+            "table1_cell04_line45": {
+                "text": "11.1.1.1. EWP能力算出",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "11.1.1.1. EWP能力算出",
+                "location": [
+                    336,
+                    150,
+                    374,
+                    470
+                ]
+            },
+            "table1_cell04_line46": {
+                "text": "現状内容:",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "現状内容:",
+                "location": [
+                    236,
+                    48,
+                    282,
+                    206
+                ]
+            },
+            "table1_cell06_line47": {
+                "text": "TWBA",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "TWBA",
+                "location": [
+                    156,
+                    852,
+                    212,
+                    960
+                ]
+            },
+            "table1_cell07_line48": {
+                "text": "仕様変更依頼書",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "仕様変更依頼書",
+                "location": [
+                    146,
+                    50,
+                    220,
+                    526
+                ]
+            },
+            "table1_cell06_line49": {
+                "text": "機種:",
+                "confidences": [
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "機種:",
+                "location": [
+                    142,
+                    636,
+                    198,
+                    740
+                ]
+            }
+        },
+        "page_0004": {
+            "table1_cell03_line01": {
+                "text": "備考",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "備考",
+                "location": [
+                    1906,
+                    44,
+                    1958,
+                    130
+                ]
+            },
+            "table1_cell04_line02": {
+                "text": "WP_DUTY≦10%のときC_EWPACT=O",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "WP_DUTYS10%のときC_EWPACT=O",
+                "location": [
+                    1706,
+                    266,
+                    1744,
+                    762
+                ]
+            },
+            "table1_cell04_line03": {
+                "text": "WP_DUTY>10%のときC_EWPACT=1",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "WP_DUTY>10%のときC_EWPACT=1",
+                "location": [
+                    1670,
+                    266,
+                    1708,
+                    746
+                ]
+            },
+            "table1_cell04_line04": {
+                "text": "◆C_EWPACTの定義",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": ".C_EWPACTの定義",
+                "location": [
+                    1638,
+                    212,
+                    1672,
+                    488
+                ]
+            },
+            "table1_cell04_line05": {
+                "text": "計算値は1%刻みとし、1%以下は切捨てとする。",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "計算値は1%刻みとし. 1%以下は切捨てとする.",
+                "location": [
+                    1564,
+                    190,
+                    1602,
+                    746
+                ]
+            },
+            "table1_cell04_line06": {
+                "text": "46",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "46",
+                "location": [
+                    1522,
+                    1030,
+                    1548,
+                    1070
+                ]
+            },
+            "table1_cell04_line07": {
+                "text": "46",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "46",
+                "location": [
+                    1522,
+                    876,
+                    1548,
+                    918
+                ]
+            },
+            "table1_cell04_line08": {
+                "text": "46",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "46",
+                "location": [
+                    1520,
+                    724,
+                    1556,
+                    764
+                ]
+            },
+            "table1_cell04_line09": {
+                "text": "46",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "46",
+                "location": [
+                    1520,
+                    570,
+                    1552,
+                    610
+                ]
+            },
+            "table1_cell04_line10": {
+                "text": "WP_DUTY (%)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "WP_DUTY (%)",
+                "location": [
+                    1522,
+                    266,
+                    1552,
+                    458
+                ]
+            },
+            "table1_cell04_line11": {
+                "text": "4500",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "4500",
+                "location": [
+                    1480,
+                    1016,
+                    1516,
+                    1084
+                ]
+            },
+            "table1_cell04_line12": {
+                "text": "3000",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "3000",
+                "location": [
+                    1480,
+                    862,
+                    1516,
+                    930
+                ]
+            },
+            "table1_cell04_line13": {
+                "text": "1600",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "1600",
+                "location": [
+                    1480,
+                    712,
+                    1516,
+                    780
+                ]
+            },
+            "table1_cell04_line14": {
+                "text": "0",
+                "confidences": [
+                    1
+                ],
+                "ocr": "0",
+                "location": [
+                    1480,
+                    576,
+                    1516,
+                    604
+                ]
+            },
+            "table1_cell04_line15": {
+                "text": "ENGWP_RPM (rpm)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "ENGWP_RPM (rpm)",
+                "location": [
+                    1482,
+                    244,
+                    1516,
+                    482
+                ]
+            },
+            "table1_cell04_line16": {
+                "text": "3600",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "3600",
+                "location": [
+                    1430,
+                    740,
+                    1462,
+                    804
+                ]
+            },
+            "table1_cell04_line17": {
+                "text": "2600",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "2600",
+                "location": [
+                    1430,
+                    646,
+                    1462,
+                    710
+                ]
+            },
+            "table1_cell04_line18": {
+                "text": "ENGWP_RPM (rpm)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "ENGWP_RPM (rpm)",
+                "location": [
+                    1430,
+                    878,
+                    1460,
+                    1110
+                ]
+            },
+            "table1_cell04_line19": {
+                "text": "10",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "10",
+                "location": [
+                    1302,
+                    506,
+                    1344,
+                    550
+                ]
+            },
+            "table1_cell04_line20": {
+                "text": "*",
+                "confidences": [
+                    1
+                ],
+                "ocr": "*",
+                "location": [
+                    1222,
+                    520,
+                    1258,
+                    550
+                ]
+            },
+            "table1_cell04_line21": {
+                "text": "WP_DUTY(%)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "WP_DUTY(%)",
+                "location": [
+                    1160,
+                    442,
+                    1198,
+                    654
+                ]
+            },
+            "table1_cell04_line22": {
+                "text": "Gw_tgt=6(L/min)のとき",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "Gw_tgt=6(L/min)のとき",
+                "location": [
+                    1116,
+                    190,
+                    1158,
+                    482
+                ]
+            },
+            "table1_cell04_line23": {
+                "text": "46",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "46",
+                "location": [
+                    1022,
+                    1028,
+                    1054,
+                    1070
+                ]
+            },
+            "table1_cell04_line24": {
+                "text": "46",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "46",
+                "location": [
+                    1022,
+                    876,
+                    1054,
+                    918
+                ]
+            },
+            "table1_cell04_line25": {
+                "text": "46",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "46",
+                "location": [
+                    1022,
+                    724,
+                    1054,
+                    764
+                ]
+            },
+            "table1_cell04_line26": {
+                "text": "46",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "46",
+                "location": [
+                    1022,
+                    570,
+                    1054,
+                    610
+                ]
+            },
+            "table1_cell04_line27": {
+                "text": "WP DUTY (%)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "WP DUTY (%)",
+                "location": [
+                    1022,
+                    260,
+                    1060,
+                    462
+                ]
+            },
+            "table1_cell04_line28": {
+                "text": "4500",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "4500",
+                "location": [
+                    982,
+                    1016,
+                    1018,
+                    1084
+                ]
+            },
+            "table1_cell04_line29": {
+                "text": "3000",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "3000",
+                "location": [
+                    982,
+                    860,
+                    1018,
+                    932
+                ]
+            },
+            "table1_cell04_line30": {
+                "text": "1600",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "1600",
+                "location": [
+                    982,
+                    712,
+                    1018,
+                    780
+                ]
+            },
+            "table1_cell04_line31": {
+                "text": "0",
+                "confidences": [
+                    1
+                ],
+                "ocr": "0",
+                "location": [
+                    982,
+                    576,
+                    1018,
+                    604
+                ]
+            },
+            "table1_cell04_line32": {
+                "text": "ENGWP_RPM (rpm)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "ENGWP_RPM (rpm)",
+                "location": [
+                    984,
+                    238,
+                    1018,
+                    484
+                ]
+            },
+            "table1_cell04_line33": {
+                "text": "3600",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "3600",
+                "location": [
+                    942,
+                    652,
+                    974,
+                    716
+                ]
+            },
+            "table1_cell04_line34": {
+                "text": "2600",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "2600",
+                "location": [
+                    942,
+                    556,
+                    978,
+                    620
+                ]
+            },
+            "table1_cell04_line35": {
+                "text": "ENGWP_RPM (rpm)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "ENGWP_RPM (rpm)",
+                "location": [
+                    942,
+                    786,
+                    976,
+                    1020
+                ]
+            },
+            "table1_cell04_line36": {
+                "text": "10",
+                "confidences": [
+                    1,
+                    1
+                ],
+                "ocr": "10",
+                "location": [
+                    830,
+                    416,
+                    866,
+                    460
+                ]
+            },
+            "table1_cell04_line37": {
+                "text": "*",
+                "confidences": [
+                    1
+                ],
+                "ocr": "*",
+                "location": [
+                    748,
+                    430,
+                    780,
+                    460
+                ]
+            },
+            "table1_cell04_line38": {
+                "text": "WP_DUTY(%)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "WP_DUTY(%)",
+                "location": [
+                    682,
+                    352,
+                    724,
+                    560
+                ]
+            },
+            "table1_cell04_line39": {
+                "text": "Gw_tgt-10(L/min)のとき",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "Gw_tgt-10(L/min)のとき",
+                "location": [
+                    644,
+                    190,
+                    686,
+                    496
+                ]
+            },
+            "table1_cell04_line40": {
+                "text": "C_ENG_EWPRPMエラー時(データエラー、通信エラー) : ENGWP_RPM=0とする。",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "C_ENG_EWPRPMエラー時(データエラー. 通信エラー) : ENGWP_RPM=0 とする.",
+                "location": [
+                    566,
+                    188,
+                    604,
+                    1242
+                ]
+            },
+            "table1_cell04_line41": {
+                "text": "ENGWP_RPM :エンジンWP回転数: ENGWP_RPM= C_ENG_EWPRPM (rpm)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "ENGWP_RPM :エンジンWP回転数: ENGWP_RPM= C_ENG_EWPRPM (rpm)",
+                "location": [
+                    530,
+                    190,
+                    572,
+                    1188
+                ]
+            },
+            "table1_cell04_line42": {
+                "text": "10≦WP_DUTY≦100(%)",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "10SWP_DUTYS100(%)",
+                "location": [
+                    462,
+                    192,
+                    500,
+                    526
+                ]
+            },
+            "table1_cell04_line43": {
+                "text": "ただし、以下の上下限リミットを設ける。",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "ただし, 以下の上下限リミットを設ける.",
+                "location": [
+                    428,
+                    190,
+                    462,
+                    650
+                ]
+            },
+            "table1_cell04_line44": {
+                "text": "ENGWP_RPMとGw_tgtによるテーブルから決定する。",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "ENGWP_RPMと Gw_tgt によるテーブルから決定する.",
+                "location": [
+                    390,
+                    190,
+                    428,
+                    868
+                ]
+            },
+            "table1_cell04_line45": {
+                "text": "11.1.1.1. EWP能力算出",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "11.1.1.1. EWP能力算出",
+                "location": [
+                    336,
+                    150,
+                    374,
+                    470
+                ]
+            },
+            "table1_cell04_line46": {
+                "text": "変更内容:",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "変更内容:",
+                "location": [
+                    244,
+                    58,
+                    286,
+                    214
+                ]
+            },
+            "table1_cell06_line47": {
+                "text": "TWBA",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "TWBA",
+                "location": [
+                    156,
+                    852,
+                    212,
+                    960
+                ]
+            },
+            "table1_cell07_line48": {
+                "text": "仕様変更依頼書",
+                "confidences": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "仕様変更依頼書",
+                "location": [
+                    146,
+                    50,
+                    220,
+                    526
+                ]
+            },
+            "table1_cell06_line49": {
+                "text": "機種:",
+                "confidences": [
+                    1,
+                    1,
+                    1
+                ],
+                "ocr": "機種:",
+                "location": [
+                    142,
+                    636,
+                    198,
+                    740
+                ]
+            }
+        }
+    }
+}

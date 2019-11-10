@@ -1,0 +1,464 @@
+[
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Katakana",
+    "FIELD": "c_lastname_kana",
+    "OCR": "オオダカオ",
+    "CA": "オオダカオ"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Katakana",
+    "FIELD": "c_firstname_kana",
+    "OCR": "ヒサシ",
+    "CA": "ヒサシ"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Mix",
+    "FIELD": "c_lastname",
+    "OCR": "大高",
+    "CA": "大高"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Mix",
+    "FIELD": "c_firstname",
+    "OCR": "寿",
+    "CA": "寿"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_birthday",
+    "OCR": "951219",
+    "CA": "951219"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_sex",
+    "OCR": "1",
+    "CA": "1"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_tel",
+    "OCR": "09068719799",
+    "CA": "09068719799"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Alphabet",
+    "FIELD": "c_email_address",
+    "OCR": "hisashio257@npdev.wh",
+    "CA": "hisashio257@npdev.wh"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_postcode",
+    "OCR": "8710060",
+    "CA": "8710060"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Kanji",
+    "FIELD": "c_prefecture",
+    "OCR": "大分県",
+    "CA": "大分県"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Mix",
+    "FIELD": "c_municipal",
+    "OCR": "中津市",
+    "CA": "中津市"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Mix",
+    "FIELD": "c_address",
+    "OCR": "北稲堀2-16-5",
+    "CA": "北稲堀2-16-5"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Checkbox",
+    "FIELD": "c_adult_flg",
+    "OCR": "ON",
+    "CA": "ON"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Alphabet",
+    "FIELD": "c_identificationnumber",
+    "OCR": "VMNNU2XBEM5D",
+    "CA": "VMNNU2XBEM5D"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_purchasedate",
+    "OCR": "180529",
+    "CA": "180529"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Checkbox",
+    "FIELD": "c_directmail",
+    "OCR": "ON",
+    "CA": "ON"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Checkbox",
+    "FIELD": "c_personal_information",
+    "OCR": "ON",
+    "CA": "ON"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Alphabet",
+    "FIELD": "c_kbn",
+    "OCR": "JA",
+    "CA": "JA"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Mix",
+    "FIELD": "identification_fullname",
+    "OCR": "",
+    "CA": ""
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Mix",
+    "FIELD": "identification_birthday",
+    "OCR": "",
+    "CA": ""
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Number",
+    "FIELD": "identification_flg",
+    "OCR": "0",
+    "CA": "0"
+  },
+  {
+    "FILE": "ja_20181220183650-029.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_read_status",
+    "OCR": "",
+    "CA": ""
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Katakana",
+    "FIELD": "c_lastname_kana",
+    "OCR": "オオバ",
+    "CA": "オオバ"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Katakana",
+    "FIELD": "c_firstname_kana",
+    "OCR": "ユズカ",
+    "CA": "ユズカ"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Mix",
+    "FIELD": "c_lastname",
+    "OCR": "大場",
+    "CA": "大場"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Mix",
+    "FIELD": "c_firstname",
+    "OCR": "柚香",
+    "CA": "柚香"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_birthday",
+    "OCR": "921217",
+    "CA": "921217"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_sex",
+    "OCR": "2",
+    "CA": "2"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_tel",
+    "OCR": "09071728509",
+    "CA": "09071728509"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Alphabet",
+    "FIELD": "c_email_address",
+    "OCR": "jyuzukaoobo@uicj0zq.0gy",
+    "CA": "jyuzukaoobo@uicj0zq.0gy"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_postcode",
+    "OCR": "8900033",
+    "CA": "8900033"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Kanji",
+    "FIELD": "c_prefecture",
+    "OCR": "鹿児島県",
+    "CA": "鹿児島県"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Mix",
+    "FIELD": "c_municipal",
+    "OCR": "鹿児島市",
+    "CA": "鹿児島市"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Mix",
+    "FIELD": "c_address",
+    "OCR": "西別府町1-8-16",
+    "CA": "西別府町1-8-16"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Checkbox",
+    "FIELD": "c_adult_flg",
+    "OCR": "ON",
+    "CA": "ON"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Alphabet",
+    "FIELD": "c_identificationnumber",
+    "OCR": "P57EHEG5C39W",
+    "CA": "P57EHEG5C39W"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_purchasedate",
+    "OCR": "180515",
+    "CA": "180515"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Checkbox",
+    "FIELD": "c_directmail",
+    "OCR": "OFF",
+    "CA": "OFF"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Checkbox",
+    "FIELD": "c_personal_information",
+    "OCR": "ON",
+    "CA": "ON"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Alphabet",
+    "FIELD": "c_kbn",
+    "OCR": "JA",
+    "CA": "JA"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Mix",
+    "FIELD": "identification_fullname",
+    "OCR": "菅生敏行",
+    "CA": "菅生敏行"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Mix",
+    "FIELD": "identification_birthday",
+    "OCR": "昭和48年4月3日",
+    "CA": "昭和48年4月3日"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Number",
+    "FIELD": "identification_flg",
+    "OCR": "1",
+    "CA": "1"
+  },
+  {
+    "FILE": "ja_20181220183650-015.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_read_status",
+    "OCR": "",
+    "CA": ""
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Katakana",
+    "FIELD": "c_lastname_kana",
+    "OCR": "イシグロ",
+    "CA": "イシグロ"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Katakana",
+    "FIELD": "c_firstname_kana",
+    "OCR": "リホ",
+    "CA": "リホ"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Mix",
+    "FIELD": "c_lastname",
+    "OCR": "石倉",
+    "CA": "石倉"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Mix",
+    "FIELD": "c_firstname",
+    "OCR": "里穂",
+    "CA": "里穂"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_birthday",
+    "OCR": "660111",
+    "CA": "660111"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_sex",
+    "OCR": "2",
+    "CA": "2"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_tel",
+    "OCR": "09040578605",
+    "CA": "09040578605"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Alphabet",
+    "FIELD": "c_email_address",
+    "OCR": "riho_ishikura@rhwr.nux",
+    "CA": "riho_ishikura@rhwr.nux"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_postcode",
+    "OCR": "2310822",
+    "CA": "2310822"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Kanji",
+    "FIELD": "c_prefecture",
+    "OCR": "神奈川県",
+    "CA": "神奈川県"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Mix",
+    "FIELD": "c_municipal",
+    "OCR": "横浜市",
+    "CA": "横浜市"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Mix",
+    "FIELD": "c_address",
+    "OCR": "中区元町3-19-5本敷元町ビル315",
+    "CA": "中区元町3-19-5本敷元町ビル315"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Checkbox",
+    "FIELD": "c_adult_flg",
+    "OCR": "ON",
+    "CA": "ON"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Alphabet",
+    "FIELD": "c_identificationnumber",
+    "OCR": "PJCH6KQ4HRVS",
+    "CA": "PJCH6KQ4HRVS"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_purchasedate",
+    "OCR": "180502",
+    "CA": "180502"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Checkbox",
+    "FIELD": "c_directmail",
+    "OCR": "OFF",
+    "CA": "OFF"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Checkbox",
+    "FIELD": "c_personal_information",
+    "OCR": "ON",
+    "CA": "ON"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Alphabet",
+    "FIELD": "c_kbn",
+    "OCR": "JA",
+    "CA": "JA"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Mix",
+    "FIELD": "identification_fullname",
+    "OCR": "三河荷理菜",
+    "CA": "三河荷理菜"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Mix",
+    "FIELD": "identification_birthday",
+    "OCR": "平成1年4月9日",
+    "CA": "平成1年4月9日"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Number",
+    "FIELD": "identification_flg",
+    "OCR": "1",
+    "CA": "1"
+  },
+  {
+    "FILE": "ja_20181220183649-002.pdf",
+    "TYPE": "Number",
+    "FIELD": "c_read_status",
+    "OCR": "",
+    "CA": ""
+  }
+]

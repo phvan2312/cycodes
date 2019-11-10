@@ -1,0 +1,966 @@
+{
+    "file_name": "(仕様変更依頼書)TWBA_DAN0_001_4.png",
+    "attributes": {
+        "_via_img_metadata": {
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1916,
+                        "y": 456,
+                        "width": 284,
+                        "height": 118
+                    },
+                    "region_attributes": {
+                        "label": "機種:",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 159,
+                        "y": 453,
+                        "width": 1420,
+                        "height": 209
+                    },
+                    "region_attributes": {
+                        "label": "仕様変更依頼書",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 151,
+                        "y": 731,
+                        "width": 468,
+                        "height": 93
+                    },
+                    "region_attributes": {
+                        "label": "現状内容:",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 450,
+                        "y": 1015,
+                        "width": 957,
+                        "height": 95
+                    },
+                    "region_attributes": {
+                        "label": "11.1.1.1. EWP能力算出",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 583,
+                        "y": 1197,
+                        "width": 2007,
+                        "height": 84
+                    },
+                    "region_attributes": {
+                        "label": "ENGWP_RPMとGw_tgtによるテーブルから決定する。",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 574,
+                        "y": 1289,
+                        "width": 1379,
+                        "height": 97
+                    },
+                    "region_attributes": {
+                        "label": "ただし、以下の上下限リミットを設ける。",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 587,
+                        "y": 1402,
+                        "width": 992,
+                        "height": 95
+                    },
+                    "region_attributes": {
+                        "label": "10 ≦ WP_DUTY ≦ 100 (%)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 581,
+                        "y": 1614,
+                        "width": 2982,
+                        "height": 91
+                    },
+                    "region_attributes": {
+                        "label": "ENGWP_RPM :エンジンWP回転数:ENGWP_RPM = C_ENG_EWPRPM(rpm)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 584,
+                        "y": 1722,
+                        "width": 3152,
+                        "height": 89
+                    },
+                    "region_attributes": {
+                        "label": "C_ENG_EWPRPMエラー時(データエラー、通信エラー): ENGWP_RPM = 0とする。",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 581,
+                        "y": 1948,
+                        "width": 914,
+                        "height": 96
+                    },
+                    "region_attributes": {
+                        "label": "Gw_tgt=10(L/min)のとき",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1059,
+                        "y": 2071,
+                        "width": 606,
+                        "height": 100
+                    },
+                    "region_attributes": {
+                        "label": "WP_DUTY(%)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1292,
+                        "y": 2257,
+                        "width": 101,
+                        "height": 66
+                    },
+                    "region_attributes": {
+                        "label": "∗",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1251,
+                        "y": 2502,
+                        "width": 125,
+                        "height": 87
+                    },
+                    "region_attributes": {
+                        "label": "10",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2364,
+                        "y": 2848,
+                        "width": 690,
+                        "height": 73
+                    },
+                    "region_attributes": {
+                        "label": "ENGWP_RPM (rpm)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1967,
+                        "y": 2852,
+                        "width": 182,
+                        "height": 67
+                    },
+                    "region_attributes": {
+                        "label": "3600",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1677,
+                        "y": 2854,
+                        "width": 186,
+                        "height": 63
+                    },
+                    "region_attributes": {
+                        "label": "2600",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2141,
+                        "y": 2965,
+                        "width": 195,
+                        "height": 76
+                    },
+                    "region_attributes": {
+                        "label": "1600",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3056,
+                        "y": 2965,
+                        "width": 202,
+                        "height": 68
+                    },
+                    "region_attributes": {
+                        "label": "4500",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2589,
+                        "y": 2965,
+                        "width": 217,
+                        "height": 76
+                    },
+                    "region_attributes": {
+                        "label": "3000",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 722,
+                        "y": 2964,
+                        "width": 726,
+                        "height": 84
+                    },
+                    "region_attributes": {
+                        "label": "ENGWP_RPM (rpm)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1732,
+                        "y": 2965,
+                        "width": 78,
+                        "height": 68
+                    },
+                    "region_attributes": {
+                        "label": "0",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 806,
+                        "y": 3084,
+                        "width": 557,
+                        "height": 88
+                    },
+                    "region_attributes": {
+                        "label": "WP_DUTY (%)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1720,
+                        "y": 3083,
+                        "width": 114,
+                        "height": 77
+                    },
+                    "region_attributes": {
+                        "label": "50",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2170,
+                        "y": 3083,
+                        "width": 123,
+                        "height": 83
+                    },
+                    "region_attributes": {
+                        "label": "50",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2636,
+                        "y": 3083,
+                        "width": 119,
+                        "height": 77
+                    },
+                    "region_attributes": {
+                        "label": "50",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3093,
+                        "y": 3083,
+                        "width": 116,
+                        "height": 79
+                    },
+                    "region_attributes": {
+                        "label": "50",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 574,
+                        "y": 3372,
+                        "width": 880,
+                        "height": 87
+                    },
+                    "region_attributes": {
+                        "label": "Gw_tgt=6(L/min)のとき",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1341,
+                        "y": 3498,
+                        "width": 593,
+                        "height": 90
+                    },
+                    "region_attributes": {
+                        "label": "WP_DUTY(%)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1567,
+                        "y": 3685,
+                        "width": 98,
+                        "height": 70
+                    },
+                    "region_attributes": {
+                        "label": "∗",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1522,
+                        "y": 3931,
+                        "width": 125,
+                        "height": 76
+                    },
+                    "region_attributes": {
+                        "label": "10",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2638,
+                        "y": 4298,
+                        "width": 676,
+                        "height": 81
+                    },
+                    "region_attributes": {
+                        "label": "ENGWP_RPM (rpm)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1943,
+                        "y": 4311,
+                        "width": 192,
+                        "height": 68
+                    },
+                    "region_attributes": {
+                        "label": "2600",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2235,
+                        "y": 4311,
+                        "width": 180,
+                        "height": 66
+                    },
+                    "region_attributes": {
+                        "label": "3600",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 736,
+                        "y": 4459,
+                        "width": 689,
+                        "height": 88
+                    },
+                    "region_attributes": {
+                        "label": "ENGWP_RPM (rpm)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3054,
+                        "y": 4460,
+                        "width": 198,
+                        "height": 69
+                    },
+                    "region_attributes": {
+                        "label": "4500",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1732,
+                        "y": 4466,
+                        "width": 82,
+                        "height": 63
+                    },
+                    "region_attributes": {
+                        "label": "0",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2152,
+                        "y": 4460,
+                        "width": 177,
+                        "height": 75
+                    },
+                    "region_attributes": {
+                        "label": "1600",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2598,
+                        "y": 4460,
+                        "width": 190,
+                        "height": 75
+                    },
+                    "region_attributes": {
+                        "label": "3000",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1718,
+                        "y": 4579,
+                        "width": 123,
+                        "height": 72
+                    },
+                    "region_attributes": {
+                        "label": "50",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2170,
+                        "y": 4579,
+                        "width": 127,
+                        "height": 74
+                    },
+                    "region_attributes": {
+                        "label": "50",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 806,
+                        "y": 4573,
+                        "width": 554,
+                        "height": 80
+                    },
+                    "region_attributes": {
+                        "label": "WP_DUTY (%)",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2641,
+                        "y": 4579,
+                        "width": 112,
+                        "height": 72
+                    },
+                    "region_attributes": {
+                        "label": "50 ",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 3095,
+                        "y": 4579,
+                        "width": 112,
+                        "height": 72
+                    },
+                    "region_attributes": {
+                        "label": "50 ",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 570,
+                        "y": 4714,
+                        "width": 1676,
+                        "height": 89
+                    },
+                    "region_attributes": {
+                        "label": "計算値は1%刻みとし、1%以下は切捨てとする。",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 643,
+                        "y": 4926,
+                        "width": 828,
+                        "height": 92
+                    },
+                    "region_attributes": {
+                        "label": "◆C_EWPACTの定義",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 815,
+                        "y": 5038,
+                        "width": 1429,
+                        "height": 84
+                    },
+                    "region_attributes": {
+                        "label": "WP_DUTY>10%のときC_EWPACT=1",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 815,
+                        "y": 5140,
+                        "width": 1478,
+                        "height": 85
+                    },
+                    "region_attributes": {
+                        "label": "WP_DUTY≦10%のときC_EWPACT=0",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 143,
+                        "y": 5733,
+                        "width": 257,
+                        "height": 123
+                    },
+                    "region_attributes": {
+                        "label": "備考",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2566,
+                        "y": 502,
+                        "width": 303,
+                        "height": 110
+                    },
+                    "region_attributes": {
+                        "label": "TWBA",
+                        "key_type": "other",
+                        "text_category": "mix",
+                        "text_type": "printed",
+                        "is_targeted": "no",
+                        "formal_key": "",
+                        "note": ""
+                    }
+                }
+            ],
+            "file_attributes": {}
+        },
+        "_via_attributes": {
+            "region": {
+                "label": {
+                    "type": "text",
+                    "description": "",
+                    "default_value": ""
+                },
+                "key_type": {
+                    "type": "dropdown",
+                    "description": "",
+                    "options": {
+                        "key": "",
+                        "value": "",
+                        "master": "",
+                        "common_key": "",
+                        "other": ""
+                    },
+                    "default_options": {
+                        "other": "true"
+                    }
+                },
+                "text_category": {
+                    "type": "dropdown",
+                    "description": "",
+                    "options": {
+                        "name": "",
+                        "address": "",
+                        "email": "",
+                        "number": "",
+                        "alphabet": "",
+                        "japanese": "",
+                        "checkbox": "",
+                        "mix": ""
+                    },
+                    "default_options": {
+                        "mix": "true"
+                    }
+                },
+                "text_type": {
+                    "type": "dropdown",
+                    "description": "",
+                    "options": {
+                        "handwriting": "",
+                        "printed": "",
+                        "mixed": ""
+                    },
+                    "default_options": {
+                        "printed": "true"
+                    }
+                },
+                "is_targeted": {
+                    "type": "dropdown",
+                    "description": "",
+                    "options": {
+                        "yes": "",
+                        "no": ""
+                    },
+                    "default_options": {
+                        "no": "true"
+                    }
+                },
+                "formal_key": {
+                    "type": "text",
+                    "description": "",
+                    "default_value": ""
+                },
+                "note": {
+                    "type": "text",
+                    "description": "",
+                    "default_value": ""
+                }
+            },
+            "file": {}
+        }
+    }
+}
